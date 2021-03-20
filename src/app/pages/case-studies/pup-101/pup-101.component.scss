@@ -1,0 +1,160 @@
+.banner-container {
+  text-align: center;
+}
+
+.title-container {
+  height: 15%;
+}
+
+.case-title {
+  font-family: 'Lora';
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.case-subtitle {
+  font-family: 'Lora';
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.banner-img {
+  height: 85%;
+}
+
+.column-container {
+  display: flex;
+  padding-top: 50px;
+}
+
+.left-content {
+  flex-basis: 25%;
+  padding-right: 50px;
+}
+
+.right-content {
+  flex-basis: 60%;
+  padding-top: 10px; //bottom-align smaller title on right side with big title on left
+}
+
+.right-content-wide {
+  flex-basis: 75%;
+  padding-top: 10px; //bottom-align smaller title on right side with big title on left
+}
+
+.left-col-title {
+  font-family: 'Lora';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.content-section {
+  margin-bottom: 40px;
+}
+
+.content-subtitle {
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.left-col-content {
+  font-size: 16px;
+}
+
+.light-bg .page-break {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 1px solid #272727;
+}
+
+.dark-bg .page-break {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 1px solid #FAFAFA;
+}
+
+.quote {
+  font-family: 'Lora';
+  font-size: 24px;
+  font-weight: 500;
+  padding: 40px 30%;
+  text-align: center;
+}
+
+.in-line-quote {
+  font-family: 'Lora';
+  font-size: 24px;
+  font-weight: 500;
+  padding: 40px 15%;
+  text-align: center;
+}
+
+.sources {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.25px;
+  color: #808080;
+  text-transform: uppercase;
+}
+
+.research-list {
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding-right: 40px;
+  flex-basis: 50%;
+}
+
+.content-image {
+  width: 100%;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0,0,0,25%);
+}
+
+.content-image-no-shadow {
+  width: 100%;
+  cursor: pointer;
+}
+
+.sketches-container {
+  display: flex;
+}
+
+.coral-subtitle {
+  font-weight: 800;
+  font-size: 14px;
+  color: #E95E5F;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.content-subsection {
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  flex-basis: 33%;
+}
+
+.wireframes-subsection {
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  flex-basis: 25%;
+}
+
+.content-subtitle-small {
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.next-project-container {
+  width: 275px;
+  margin-left: calc(100% - 250px);
+  cursor: pointer;
+  padding-bottom: 50px;
+}

@@ -1,0 +1,14 @@
+<div class="case-card-container">
+  <img src="{{'/assets/' + imgPath + '_home_thumbnail.png'}}"
+       class="case-thumbnail" 
+       (click)="goToCase($event)">
+  <span class="caption">{{caption}}</span>
+  <br>
+  <div class="title-container">
+    <span class="name">{{name}}</span>
+    <span>
+      <hr class="page-break" width="50px" noshade size="1px" >
+    </span>
+  </div>
+  <span class="description">{{description}}</span>
+</div>

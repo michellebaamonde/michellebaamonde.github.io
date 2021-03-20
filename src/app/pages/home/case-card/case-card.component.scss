@@ -1,0 +1,50 @@
+:host {
+  display: flex;
+}
+
+.case-card-container {
+  margin-bottom: 70px;
+}
+
+.case-thumbnail {
+  cursor: pointer;
+  margin-top: 0px;
+  margin-left: 0px;
+  transition: 0.2s;
+  width: 100%;
+}
+
+.case-thumbnail:hover {
+  margin-top: -5px;
+  margin-left: 5px;
+  box-shadow: -5px 5px 5px grey;
+}
+
+.caption {
+  color: #808080;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.name {
+  font-family: 'Lora';
+  font-weight: 700;
+  font-size: 24px;
+  padding: 8px 0px;
+}
+
+.title-container {
+  display: flex;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.page-break {
+  margin-left: 10px;
+  margin-top: 26px;
+}

@@ -1,0 +1,44 @@
+<div class="content-container home-container full-min-height">
+  <div class="dark-bg side-paddings full-height-no-footer">
+    <div class="home-intro">
+      <img src="assets/profile.png" class="prof-pic">
+      <div class="intro-text-container">
+        <span class="intro-text">
+          Hi! I’m <span class="pink">Michelle Baamonde</span>,
+          <br/>
+          a product designer based in NYC.
+        </span>
+        <span class="sub-intro-text">
+          I help brands tell their stories by creating seamless digital experiences for their users.
+        </span>
+      </div>
+    </div>
+    <div class="intro-bottom-container">
+      <div class="links-container">
+        <button class="stroked-button-home" mat-stroked-button (click)="onWorkClick($event)">
+          view my work <span class="material-icons">arrow_right_alt</span>
+        </button>
+        <button class="stroked-button-home" mat-stroked-button (click)="onInTouchClick($event)">
+          get in touch <span class="material-icons">arrow_right_alt</span>
+        </button>
+      </div>
+      <div class="keep-scrolling">
+        <img class="scroll-icon" src="assets/chevron_down.svg" (click)="onWorkClick($event)">
+      </div>
+    </div>
+  </div>
+  <div class="light-bg side-paddings full-min-height-no-header" #work>
+    <div class="recent-work">recent work</div>
+    <div class="case-card-grid-container">
+      <ng-container *ngFor="let case of caseStudies">
+        <case-card [name]="case.name"
+                   [description]="case.description"
+                   [imgPath]="case.imgPath"
+                   [caption]="case.caption"
+                   [caseUrl]="case.caseUrl"
+                   [fullWidth]="case.fullWidth">
+         </case-card>
+      </ng-container>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,82 @@
+.home-intro {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 40%;
+}
+
+.prof-pic {
+  height: 100%;
+}
+
+.intro-text-container {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 60px;
+  letter-spacing: 0.5px;
+}
+
+.intro-text {
+  font-size: 48px;
+  font-family: 'Lora';
+  font-weight: 500;
+}
+
+.sub-intro-text {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.links-container {
+  width: 50%;
+  margin-left: 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro-link {
+  width: 200px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #272727;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+}
+
+.intro-bottom-container {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.keep-scrolling {
+  text-align: center;
+}
+
+.scroll-icon {
+  height: 50px;
+  cursor: pointer;
+}
+
+.font18 {
+  font-size: 18px !important;
+}
+
+.recent-work {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  padding: 80px 0px;
+  text-align: center;
+}
+
+.case-card-grid-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

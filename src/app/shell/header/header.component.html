@@ -1,0 +1,12 @@
+<div class="dark-bg header side-paddings">
+  <img src ="assets/mb_logo.svg" class="clickable" (click)="goTo('home')">
+  <div class="header-links-container">
+    <ng-container *ngFor="let item of headerItems">
+      <span class="header-link clickable"
+            [ngClass]="{'current-route': currentRoute === item}"
+            (click)="goTo(item)">
+        {{item}}
+      </span>
+    </ng-container>
+  </div>
+</div>

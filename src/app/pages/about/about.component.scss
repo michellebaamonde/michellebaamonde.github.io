@@ -1,0 +1,47 @@
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.title {
+  font-family: 'Lora';
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.subtitle {
+  font-family: 'Lora';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.half-container {
+  position: relative;
+  width: 45%;
+  padding-bottom: 20px;
+}
+
+.page-break {
+  margin-top: 30px;
+  margin-top: 21px;
+}
+
+.about1 {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-height: 70%;
+  max-width: 55%;
+}
+
+.about2 {
+  z-index: 1;
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  max-height: 70%;
+  max-width: 55%;
+}

@@ -1,0 +1,830 @@
+<div class="top-of-page "#topOfPage></div>
+
+<div class="dark-bg banner-container full-height-no-footer side-paddings">
+  <div class="title-container">
+    <div class="case-title">
+      Uncover More App:
+    </div>
+    <div class="case-subtitle">
+      Helping New Yorkers discover new experiences
+    </div>
+  </div>
+  <img src="/assets/uncovermore_banner.png" class="banner-img">
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Project Overview
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+      <div class="content-subtitle">ROLE</div>
+      <div class="left-col-content">UX/UI Designer, Researcher</div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">TOOL</div>
+      <div class="left-col-content">Figma</div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">DURATION</div>
+      <div class="left-col-content">6 weeks</div>
+    </div>
+    <div class="left-col-content">
+      <button mat-stroked-button class="stroked-button" (click)="goToNewTab('https://apps.apple.com/us/app/uncover-everything/id1553724604')">
+        download the app <span class="material-icons font18">arrow_right_alt</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="right-content">
+    <div class="content-section">
+      <div class="content-subtitle">CLIENT</div>
+      <div>
+        <p>
+          Uncover More is a guide on what to eat, see, do, shop, and stay in New York City, providing information on quick and affordable travel plans through a weekly newsletter and Instagram account with 16K+ followers.
+        </p>
+        <p>
+          Founded by a native New Yorker, Uncover More is on a mission to create a platform that introduces people to fun and unique experiences.
+        </p>
+      </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">GOAL</div>
+      <div>
+        Uncover More is looking to grow by offering its community a convenient way of searching for safe, reliable, and fun activities on the go.
+      </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">PROBLEM</div>
+      <div>
+        New Yorkers are looking for memorable experiences in the city, but feel overwhelmed with the number of options and spend too much time researching and planning.
+      </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">SOLUTION</div>
+      <div>
+        Design the mobile app to help New Yorkers explore curated recommendations around them in a digestible format.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="dark-bg quote">
+  How can we make it easier for people to discover quality experiences in New York City?
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Research
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+      <div class="content-subtitle">GOALS</div>
+      <div class="left-col-content">
+        <ul>
+          <li>Discover the resources New Yorkers use to find activities and understand their motivations.</li>
+          <br>
+          <li>Identify pain points and unmet needs of New Yorkers when searching for experiences in NYC.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="right-content">
+    <div class="content-section">
+      <div class="content-subtitle">STAKEHOLDER INSIGHTS</div>
+      <div>
+        The project began with a kickoff call with the founder to get a better understanding of their vision, target audience, business goals, competitors and constraints. This helped me determine what to focus on when conducting research on how people behave when looking for new activities and how they use recommendations.
+      </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">COMPETITIVE ANALYSIS</div>
+      <div>
+        I looked into other travel guides and recommendation services for a better understanding of the industry. It was important to note what they were offering and how they worked to know what to incorporate and what to avoid when designing the app.
+      </div>
+      <br>
+      <img src="assets/um_competitive_analysis.png"
+           class="content-image"
+           (click)="openDialog('assets/um_competitive_analysis.png')">
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">1-ON-1 INTERVIEWS</div>
+      <div>
+        Five participants between the ages of 20 and 30 were interviewed about their experiences with planning activities in NYC. Throughout the interviews, I noted pain points, needs, and motivations that were expressed by participants.
+      </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">BEHAVIORAL ARCHETYPES</div>
+      <div>
+        Rather than focusing on a singular persona, I looked at the user’s journey with a product as they might exhibit different behaviors at different times. Through the interviews, I unveiled two archetypes to represent the users I will be designing for.
+      </div>
+      <br>
+      <img src="assets/um_behavioral_archetypes.png"
+           class="content-image"
+           (click)="openDialog('assets/um_behavioral_archetypes.png')">
+    </div>
+  </div>
+</div>
+
+<div class="dark-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Define
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+        <div class="content-subtitle">PROBLEM</div>
+        <div class="left-col-content">
+          Users feel overwhelmed by too many options and spend too much time researching, so how can we make it easier for people to discover quality experiences in New York City?
+        </div>
+    </div>
+        <div class="content-subtitle">SOLUTION</div>
+        <div class="left-col-content">
+          Provide curated recommendations of NYC experiences around users in an easily digestible format from a trusted resource.
+        </div>
+  </div>
+  <div class="right-content">
+    <div class="content-section">
+      <div class="content-subtitle">IDEATION</div>
+        <div>
+          <p>
+            The goal was to take what the founder already offered with her weekly newsletter and social media and deliver it to a mobile app user via an interactive, pocket-sized guide. She built a large community by providing high quality recommendations, descriptions, and tips, which needed to be a key part of the app.
+          </p>
+          <p>
+            Ideas included detailed activity pages with key information (hours, price, location, photos), descriptions written by the native New Yorker founder, and the ability to browse nearby experiences in real-time through a map.
+          </p>
+        </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">USER FLOW</div>
+        <div>
+          I combined the ideas with steps a user would take to find an activity. The user is either looking for an activity spontaneously or planning ahead for a later time.
+        </div>
+        <br>
+        <img src="assets/um_user_flow.png"
+             class="content-image-no-shadow"
+             (click)="openDialog('assets/um_user_flow.png')">
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Design
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+      <div class="content-subtitle">SKETCHES</div>
+      <div class="left-col-content">
+        <p>
+          Based off the user flow, I listed out the app screens and content for each screen.
+        </p>
+        <p>
+          It was important to start the user journey with a map view to provide recommendations in real-time.
+        </p>
+        <p>
+          I referred to popular apps like Google Maps and Yelp to ensure I incorporated familiar design patterns.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="right-content-wide">
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <div class="coral-subtitle">HOME: VARIATION 1</div>
+        <div>
+          Full-screen map encourages the user to interact and find activities right away
+        </div>
+      </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">HOME: VARIATION 2</div>
+        <div>
+          Welcome text + search bar below map guides user to search in a specific neighborhood
+        </div>
+      </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">HOME: VARIATION 3</div>
+        <div>
+          Welcome text + search bar above map guides user to search in a specific neighborhood
+        </div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <img src="assets/um_sketch_1.png"
+             class="content-image-no-shadow" style="width: 66%"
+             (click)="openDialog('assets/um_sketch_1.png')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/um_sketch_2.png"
+            class="content-image-no-shadow" style="width: 66%"
+            (click)="openDialog('assets/um_sketch_2.png')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/um_sketch_3.png"
+             class="content-image-no-shadow" style="width: 66%"
+             (click)="openDialog('assets/um_sketch_3.png')">
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <div class="coral-subtitle">RECOMMENDATIONS</div>
+        <ul>
+          <li style="margin-bottom: 5px">Based on selected neighborhood</li>
+          <li style="margin-bottom: 5px">Avoid too many options to prevent overwhelming users</li>
+          <li style="margin-bottom: 5px">Incorporate Eat, See, and Do categories the brand already uses for consistency</li>
+        </ul>
+      </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">FILTERS</div>
+        <div>
+          Removed screen in initial wireframes after reviewing research:
+        </div>
+        <ul>
+          <li style="margin-bottom: 5px">Users usually search for 1-2 people, want a mix of free and priced activities.</li>
+          <li style="margin-bottom: 5px">App focus is on users searching in the moment, so time of day is unnecessary.</li>
+        </ul>
+      </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">ACTIVITY DETAILS</div>
+        <div>
+          Provide content based on what is important to users when making plans:
+        </div>
+        <ul>
+          <li style="margin-bottom: 5px">Photos</li>
+          <li style="margin-bottom: 5px">Key details and tips</li>
+          <li style="margin-bottom: 5px">Booking link, if applicable</li>
+          <li style="margin-bottom: 5px">Complementary recommendations</li>
+        </ul>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <img src="assets/um_sketch_4.png"
+             class="content-image-no-shadow" style="width: 66%"
+             (click)="openDialog('assets/um_sketch_4.png')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/um_sketch_5.png"
+            class="content-image-no-shadow" style="width: 66%"
+            (click)="openDialog('assets/um_sketch_5.png')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/um_sketch_6.png"
+             class="content-image-no-shadow" style="width: 66%"
+             (click)="openDialog('assets/um_sketch_6.png')">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="content-subtitle">LOW FIDELITY WIREFRAMES</div>
+    <div class="left-col-content">
+      After experimenting with different layouts of the sketches in Figma, I chose variation 3 for the home screen to kick off the user journey by asking users where they want to go, then worked on building the remaining screens.
+    </div>
+  </div>
+  <div class="right-content-wide" style="padding-top: 0px;">
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <div class="coral-subtitle">HOME</div>
+        <div>
+          Give user option to select the search bar or interact with the map underneath.
+        </div>
+      </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">SEARCH</div>
+        <div>
+          Prompt user with nearby neighborhoods
+        </div>
+      </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">RECOMMENDATIONS</div>
+        <div>
+          Each activity card includes name, cost, and neighborhood
+        </div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <img src="assets/um_lf_wireframe_1.png"
+             class="content-image" style="width: 66%"
+             (click)="openDialog('assets/um_lf_wireframe_1.png')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/um_lf_wireframe_2.png"
+            class="content-image" style="width: 66%"
+            (click)="openDialog('assets/um_lf_wireframe_2.png')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/um_lf_wireframe_3.png"
+             class="content-image" style="width: 66%"
+             (click)="openDialog('assets/um_lf_wireframe_3.png')">
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <div class="coral-subtitle">ACTIVITY DETAILS</div>
+        <div>
+          Provide user with booking instructions
+        </div>
+      </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">SAVED</div>
+        <div>
+          Access activities the user bookmarks
+        </div>
+      </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">PROFILE</div>
+        <div>
+          Access and edit user’s app information
+        </div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <img src="assets/um_lf_wireframe_4.png"
+             class="content-image" style="width: 66%"
+             (click)="openDialog('assets/um_lf_wireframe_4.png')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/um_lf_wireframe_5.png"
+            class="content-image" style="width: 66%"
+            (click)="openDialog('assets/um_lf_wireframe_5.png')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/um_lf_wireframe_6.png"
+             class="content-image" style="width: 66%"
+             (click)="openDialog('assets/um_lf_wireframe_6.png')">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="content-section">
+      <div class="content-subtitle">UI DESIGN</div>
+      <div class="left-col-content">
+        <p>
+          Uncover More had an existing brand color and logo, so my goal was to build upon the original branding with complementary colors, typography, and icons.
+        </p>
+        <p>
+          Creating a design system was crucial for a smoother design process, and the UI Kit provided developers with easy access to the assets.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="right-content" style="padding-top: 0px;">
+    <div class="content-section">
+      <div>
+          The brand is a reliable source that inspires users to try new things and connect with people and businesses, which is what I aimed to evoke with these visual elements.
+        <p>
+          The light cream and neutrals allow the brand’s navy colors to pop, and the range of colors that represent categories helps the user differentiate between them on the map.
+        </p>
+      </div>
+      <br>
+      <img src="assets/um_ui_kit.png"
+           class="content-image"
+           (click)="openDialog('assets/um_ui_kit.png')">
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="content-section">
+      <div class="content-subtitle">HIGH FIDELITY WIREFRAMES + PROTOTYPE</div>
+      <div class="left-col-content">
+        <p>
+          I added UI elements to the low fidelity wireframes to create an interactive prototype.
+        </p>
+        <p>
+          During this process, I communicated with the client and made iterations to the map icons and activity cards based on her feedback before testing the design with users.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="right-content-wide" style="padding-top: 0px;">
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">SPLASH SCREEN</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">HOME</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">HOME - MAP VIEW</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">SEARCH</div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <img src="assets/um_hf_wireframe_1.png"
+             class="content-image" style="width: 75%"
+             (click)="openDialog('assets/um_hf_wireframe_1.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/um_hf_wireframe_2.png"
+            class="content-image" style="width: 75%"
+            (click)="openDialog('assets/um_hf_wireframe_2.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/um_hf_wireframe_3.png"
+             class="content-image" style="width: 75%"
+             (click)="openDialog('assets/um_hf_wireframe_3.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/um_hf_wireframe_4.png"
+             class="content-image" style="width: 75%"
+             (click)="openDialog('assets/um_hf_wireframe_4.png')">
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">RECOMMENDATIONS</div>
+        <ul>
+          <li style="margin-bottom: 5px">Dividers between each category to highlight activity cards</li>
+          <li style="margin-bottom: 5px">Added distance, status, and price labels</li>
+        </ul>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">ACTIVITY DETAILS</div>
+        <div>
+          Removed "Book Tickets" button for users looking for activity ASAP, specified if booking is required in description.
+        </div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">SAVED</div>
+        <div>
+          Removed grid layout so it’s less distracting with multiple images in a row and easier to select a list.
+        </div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">BOOKMARKS LIST</div>
+        <div>
+          Applied card layout from Recommendations screen to refamiliarize user with what they saved.
+        </div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <img src="assets/um_hf_wireframe_5.png"
+             class="content-image" style="width: 75%"
+             (click)="openDialog('assets/um_hf_wireframe_5.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/um_hf_wireframe_6.png"
+            class="content-image" style="width: 75%"
+            (click)="openDialog('assets/um_hf_wireframe_6.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/um_hf_wireframe_7.png"
+             class="content-image" style="width: 75%"
+             (click)="openDialog('assets/um_hf_wireframe_7.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/um_hf_wireframe_8.png"
+             class="content-image" style="width: 75%"
+             (click)="openDialog('assets/um_hf_wireframe_8.png')">
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">PROFILE</div>
+        <div>
+          Removed grid layout, redundant to include information from Saved
+        </div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">SIGN UP</div>
+        <div>
+          Prompt user to sign up if they save an activity or select Saved or Profile tab
+        </div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">LOG IN</div>
+        <div>
+          Option to sign up via Google account for an easier signup process
+        </div>
+      </div>
+    </div>
+    <div class="sketches-container" style="padding-bottom: 40px;">
+      <div class="wireframes-subsection">
+        <img src="assets/um_hf_wireframe_9.png"
+             class="content-image" style="width: 75%"
+             (click)="openDialog('assets/um_hf_wireframe_9.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/um_hf_wireframe_10.png"
+            class="content-image" style="width: 75%"
+            (click)="openDialog('assets/um_hf_wireframe_10.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/um_hf_wireframe_11.png"
+             class="content-image" style="width: 75%"
+             (click)="openDialog('assets/um_hf_wireframe_11.png')">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="dark-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Test
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+        <div class="content-subtitle">OBJECTIVES</div>
+        <div class="left-col-content">
+          <ul>
+            <li style="margin-bottom: 5px">Discover unclear elements that prevent users from completing the task easily.</li>
+            <li style="margin-bottom: 5px">Identify what features were relevant and irrelevant to the user in different areas of the app.</li>
+          </ul>
+        </div>
+    </div>
+        <div class="content-subtitle">METHOD</div>
+        <div class="left-col-content">
+          Remote tests via Zoom
+        </div>
+  </div>
+  <div class="right-content">
+    <div class="content-section">
+      <div class="content-subtitle">USABILITY TEST</div>
+        <div>
+          Five participants from 20-30 years old who live in New York City and search for activities regularly were tasked with the following:
+        </div>
+        <div class="in-line-quote">
+          You are looking for a fun activity in Harlem to do with your partner/best friend, and you’re willing to splurge. How would you go about doing this?
+        </div>
+        <div>
+          <p>
+            Users shared their desktop screen and were asked to think aloud as they interacted with the mobile prototype.
+          </p>
+          <p>
+            After users completed the task, I asked them to interact with the map (if they didn’t interact with it during the task) as well as the Saved and Profile menu items.
+          </p>
+        </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">AFFINITY MAP</div>
+        <div>
+          I organized notes from the usability test recordings into successes, pain points, and insights to determine what areas to revise.
+        </div>
+        <br>
+        <img src="assets/um_affinity_map.png"
+             class="content-image-no-shadow"
+             (click)="openDialog('assets/um_affinity_map.png')">
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Deliver
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+      <div class="content-subtitle">DESIGN REVISIONS</div>
+      <div class="left-col-content">
+        I worked on edits to address the pain points and insights that came up during testing.
+      </div>
+    </div>
+  </div>
+  <div class="right-content-wide">
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">HOME - MAP VIEW</div>
+        <div class="content-subtitle-small">PAIN POINT</div>
+        <div>
+          Unclear about map icons
+        </div>
+        <br>
+        <div class="content-subtitle-small">INSIGHT</div>
+        <div>
+          Want to see bookmarks on map
+        </div>
+        <br>
+        <div class="content-subtitle-small">EDITS</div>
+        <div>
+          <ul>
+            <li style="margin-bottom: 5px">Increased size to make them more noticeable.</li>
+            <li style="margin-bottom: 5px">Created key to educate users about categories.</li>
+            <li style="margin-bottom: 5px">Added bookmark pin so users can access saved places on the map.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/um_final_1.png"
+             class="content-image-no-shadow" style="width: 90%"
+             (click)="openDialog('assets/um_final_1.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">HOME - SPOTLIGHT</div>
+        <div>
+          Client requested a “Spotlight” banner to highlight a different business each week, a familiar feature from the Uncover More weekly newsletter.
+        </div>
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/um_final_2.png"
+             class="content-image-no-shadow" style="width: 90%"
+             (click)="openDialog('assets/um_final_2.png')">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container" style="padding-top: 20px;">
+  <div class="sketches-container">
+    <div class="wireframes-subsection">
+      <div class="coral-subtitle">RECOMMENDATIONS</div>
+      <div class="content-subtitle-small">PAIN POINT</div>
+      <div>
+        Didn't know to swipe left to see more activity cards
+      </div>
+      <br>
+      <div class="content-subtitle-small">EDITS</div>
+      <div>
+        <ul>
+          <li style="margin-bottom: 5px">Adjusted spacing to make additional cards per row more visible.</li>
+          <li style="margin-bottom: 5px">Client requested subcategories, so I added a label above the title for each activity card.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="wireframes-subsection" style="margin-right: 20px">
+      <img src="assets/um_final_3.png"
+           class="content-image-no-shadow"
+           (click)="openDialog('assets/um_final_3.png')">
+    </div>
+    <div class="wireframes-subsection">
+      <div class="coral-subtitle">FILTERS</div>
+      <div>
+        Brought back Filters with the addition of subcategories to give users more tailored results.
+      </div>
+    </div>
+    <div class="wireframes-subsection" style="margin-right: 20px">
+      <img src="assets/um_final_4.png"
+           class="content-image-no-shadow"
+           (click)="openDialog('assets/um_final_4.png')">
+    </div>
+    <div class="wireframes-subsection">
+      <div class="coral-subtitle">ACTIVITY DETAILS</div>
+      <div class="content-subtitle-small">PAIN POINT</div>
+      <div>
+        Wanted to book activity immediately / didn't notice booking information
+      </div>
+      <br>
+      <div class="content-subtitle-small">INSIGHT</div>
+      <div>
+        Wanted to swipe through more photos
+      </div>
+      <br>
+      <div class="content-subtitle-small">EDITS</div>
+      <div>
+        <ul>
+          <li style="margin-bottom: 5px">Brought back "Reserve Tickets" or "Book a Table" button.</li>
+          <li style="margin-bottom: 5px">Added a slider to indicate there are additional photos.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="wireframes-subsection">
+      <img src="assets/um_final_5.png"
+           class="content-image-no-shadow"
+           (click)="openDialog('assets/um_final_5.png')">
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container" style="padding-top: 20px;">
+  <div class="sketches-container">
+    <div class="wireframes-subsection">
+      <div class="coral-subtitle">SAVED</div>
+      <div>
+        Changed list format to match cards with white background so they stand out on beige background.
+      </div>
+    </div>
+    <div class="wireframes-subsection" style="margin-right: 20px">
+      <img src="assets/um_final_6.png"
+           class="content-image-no-shadow"
+           (click)="openDialog('assets/um_final_6.png')">
+    </div>
+    <div class="wireframes-subsection">
+      <div class="coral-subtitle">BOOKMARKS LIST</div>
+      <div>
+        <ul>
+          <li style="margin-bottom: 5px">Changed to list view to differentiate it from Recommendations.</li>
+          <li style="margin-bottom: 5px">Users can see more bookmarks at a time.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="wireframes-subsection" style="margin-right: 20px">
+      <img src="assets/um_final_7.png"
+           class="content-image-no-shadow"
+           (click)="openDialog('assets/um_final_7.png')">
+    </div>
+    <div class="wireframes-subsection">
+      <div class="coral-subtitle">PROFILE</div>
+      <div class="content-subtitle-small">PAIN POINTS</div>
+      <div>
+        <ul>
+          <li style="margin-bottom: 5px">Unclear on how to use the profile (can they interact with friends in the app?)</li>
+          <li style="margin-bottom: 5px">Unclear the referral link is for friends to download the app</li>
+        </ul>
+      </div>
+      <br>
+      <div class="content-subtitle-small">EDITS</div>
+      <div>
+        <ul>
+          <li style="margin-bottom: 5px">Change "Profile" to "Account"</li>
+          <li style="margin-bottom: 5px">Remove profile photo</li>
+          <li style="margin-bottom: 5px">Change wording to specify what the referral link is for.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="wireframes-subsection">
+      <img src="assets/um_final_8.png"
+           class="content-image-no-shadow"
+           (click)="openDialog('assets/um_final_8.png')">
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="content-section">
+      <div class="content-subtitle">HANDOFF</div>
+      <div class="left-col-content">
+        <button mat-stroked-button class="stroked-button" style="margin-top: 20px;" (click)="goToNewTab('https://www.figma.com/proto/Jr2fYjDkXDZq47fJVpvcgp/Uncover-More?node-id=367%3A5&viewport=352%2C232%2C0.22122904658317566&scaling=scale-down')">
+          test final prototype <span class="material-icons font18">arrow_right_alt</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="right-content" style="padding-top: 0px;">
+    <div class="content-section">
+      <div>
+        After working with the client to finalize the designs, I prepared a Figma file link that included the following items for the developer:
+      </div>
+      <ul>
+        <li style="margin-bottom: 10px; margin-left: 10px">Properties and CSS information for each app screen</li>
+        <li style="margin-bottom: 10px; margin-left: 10px">Notes under each screen for further explanation on how certain features should work</li>
+        <li style="margin-bottom: 10px; margin-left: 10px">Updated prototype for the developer to reference transitions between screens</li>
+        <li style="margin-bottom: 10px; margin-left: 10px">UI Kit containing the app’s UI elements all in one place, including exportable assets</li>
+      </ul>
+      <p>
+        The client followed up a month later to consult with me on adding new Shop and Stay categories. I advised her on which screens would need to be updated accordingly and designed two new pins for the map.
+      </p>
+      <p>
+        I also offered recommendations when her developers had some questions on the UI for certain flows.
+      </p>
+      <div class="quote" style="padding: 40px 0%">
+        The Uncover More App officially launched in March 2021!
+      </div>
+      <div style="display: flex; justify-content: space-around;">
+        <button mat-stroked-button class="stroked-button" (click)="goToNewTab('https://apps.apple.com/us/app/uncover-everything/id1553724604')">
+          download the app <span class="material-icons">arrow_right_alt</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="dark-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Reflection
+    </div>
+  </div>
+  <div class="right-content">
+    This was my first design to product launch. Since I was designing a mobile app from scratch, I could have been pulled into multiple directions. Instead, I focused on having clear communcation between myself, the client, and the users throughout the design process.
+    <p>
+      This experience was invaluable because I was able to design for a real client with a growing business, and learned how to effectively present my ideas to the client and developers.
+    </p>
+  </div>
+</div>
+
+<div class="dark-bg side-paddings content-container">
+  <div class="back-to-top" (click)="scrollToTop()">
+    <div style="height: 36px;">
+      <span class="material-icons" style="font-size: 36px;">expand_less</span>
+    </div>
+    back to top
+  </div>
+  <div class="next-project-container" (click)="goTo('pup-101')">
+    <div class="content-subtitle">
+      NEXT PROJECT
+    </div>
+    <div class="case-title" style="display: flex;">
+      <div>Pup 101 App &nbsp;</div><span class="material-icons" style="font-size: 36px;">chevron_right</span>
+    </div>
+  </div>
+</div>
