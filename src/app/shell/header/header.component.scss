@@ -25,3 +25,34 @@
 .current-route {
   color: #E95E5F;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .header {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+  }
+
+  .header-links-container {
+    vertical-align: middle;
+    line-height: 48px;
+  }
+
+  .header-link {
+    margin-left: 30px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: 0.2s;
+  }
+
+  .header-link:hover {
+    color: #E95E5F;
+  }
+
+  .current-route {
+    color: #E95E5F;
+  }
+}

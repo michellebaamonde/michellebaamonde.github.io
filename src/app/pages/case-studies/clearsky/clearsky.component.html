@@ -1,0 +1,900 @@
+<div class="top-of-page "#topOfPage></div>
+
+<div class="dark-bg banner-container full-height-no-footer side-paddings">
+  <div class="mobile-only"><i>This page is best viewed on a desktop browser!</i></div>
+  <div class="title-container">
+    <div class="case-title">
+      ClearSky Website:
+    </div>
+    <div class="case-subtitle">
+      Creating a mobile-first design for a flight booking service
+    </div>
+  </div>
+  <img src="/assets/clearsky/clearsky_banner.png" class="banner-img">
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Project Overview
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+      <div class="content-subtitle">ROLE</div>
+      <div class="left-col-content">UX/UI Designer, Researcher</div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">TOOLS</div>
+      <div class="left-col-content">Sketch, InVision</div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">DURATION</div>
+      <div class="left-col-content">80 hours within 2 weeks</div>
+    </div>
+    <div class="content-section">
+      <div class="left-col-content" style="font-size: 14px;">Note: This was a speculative project for Designlab.</div>
+    </div>
+  </div>
+
+  <div class="right-content">
+    <div class="content-section">
+      <div class="content-subtitle">BACKGROUND</div>
+      <div>
+        With more than half of all online bookings for U.S. travelers being completed on a device or tablet, ClearSky wants to create a responsive website that will allow customers to book travel with multiple airlines.
+      </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">GOAL</div>
+      <div>
+        Design a responsive booking website that gives users an elevated and thoughtful flying experience from the flight search and booking process.
+      </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">PROBLEM</div>
+      <div>
+        Users are overwhelmed by numerous airlines to choose from and a lack of price transparency from start to finish when booking a flight.
+      </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">SOLUTION</div>
+      <div>
+        Design a straightforward online booking experience through the clear presentation of flight information with a refreshing and reliable visual design.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="dark-bg quote">
+  How might we make it easier for users to access the key information they need to book a flight?
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Research
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+      <div class="content-subtitle">GOALS</div>
+      <div class="left-col-content">
+        <ul>
+          <li>Identify pain points and unmet needs people experience when booking flights online.</li>
+          <br>
+          <li>Learn about people’s motivations for booking flights online.</li>
+        </ul>
+      </div>
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+      <div class="sources">
+        Sources: Travelport Online Travel Trends 2020, Travelport Mobile Travel Trends 2019
+      </div>
+    </div>
+  </div>
+
+  <div class="right-content">
+    <div class="content-section">
+      <div class="research-list">
+        <div class="content-subtitle">MARKET RESEARCH + COMPETITIVE ANALYSIS</div>
+        <div style="font-size: 18px;">
+          I kicked off my research by looking at trends in the online flight booking space.
+        </div>
+        <ul>
+          <li style="margin-bottom: 10px">89% of travelers use metasearch channels to research travel.</li>
+          <li style="margin-bottom: 10px">81% of travelers want to know what’s included in fares when choosing an airline.</li>
+          <li style="margin-bottom: 10px">63% say the ability to add on extras is an important factor when choosing an airline.</li>
+          <li style="margin-bottom: 10px">70% of travelers would book a multi-ticket itinerary for a cheaper price.</li>
+          <li style="margin-bottom: 10px">61% of travelers research on sites that suggest travel options based on budget.</li>
+          <li style="margin-bottom: 10px">79% of travelers find push notifications about offers or sales useful.</li>
+          <li style="margin-bottom: 10px">61% of travelers 'nearly always' or 'sometimes' use a smartphone app to book flights.</li>
+          <li style="margin-bottom: 10px">59% of business travelers have used social media channels to book a flight.</li>
+        </ul>
+        <div style="font-size: 18px;">
+          I reviewed the websites and booking process of airlines and online travel agencies to get a better sense of design patterns and offerings.
+        </div>
+      </div>
+      <br>
+      <img src="assets/clearsky/clearsky_competitive_analysis.png"
+           class="content-image"
+           (click)="openDialog('assets/clearsky/clearsky_competitive_analysis.png')">
+    </div>
+    <div class="content-section">
+      <div class="research-list">
+        <div class="content-subtitle">1-ON-1 INTERVIEWS</div>
+        <div style="font-size: 18px;">
+          To better understand online flight booking behavior, I interviewed five participants about an online flight booking experience within the past three months.
+        </div>
+        <ul>
+          <li style="margin-bottom: 10px">Users feel there is a lack of transparency regarding pricing and fees from start to finish and are overwhelmed by the large number of airlines to choose from.</li>
+          <li style="margin-bottom: 10px">Want to book a flight that will get them to their destination quickly without layovers, complete the booking process in as few steps as possible, and willing to pay more to depart and land at a more convenient time and airport.</li>
+          <li style="margin-bottom: 10px">Want more clarity about what’s included in their fare, make seating and meal selections before checkout, and quickly access key information such as their passport number.</li>
+          <li style="margin-bottom: 10px">Like the flexibility and convenience of booking with different airlines to get the best deal and exploring new destinations.</li>
+          <li style="margin-bottom: 10px">Look for free weekends to plan trips and communicate back and forth with friends and family in order to confirm group travel plans.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">EMPATHY MAP</div>
+      <div>
+        I mapped out my interview notes to get a sense of how the user thinks and feels, which has an effect on their pain points and goals.
+      </div>
+      <br>
+      <img src="assets/clearsky/clearsky_empathy_map.png"
+           class="content-image"
+           (click)="openDialog('assets/clearsky/clearsky_empathy_map.png')">
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">USER PERSONA</div>
+      <div>
+        The target user I am designing for is Meg, an experienced traveler who enjoys looking for new travel destinations. She balances her busy work schedule with fun group trips. While price is important to her, she is willing to pay more for convenience. Meg is no stranger to booking flights online but appreciates efficiency and transparency from the travel sites she uses.
+      </div>
+      <br>
+      <img src="assets/clearsky/clearsky_persona.png"
+           class="content-image"
+           (click)="openDialog('assets/clearsky/clearsky_persona.png')">
+    </div>
+  </div>
+</div>
+
+<div class="dark-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Define
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+        <div class="content-subtitle">PROBLEM</div>
+        <div class="left-col-content">
+          Users are overwhelmed by numerous airlines to choose from and a lack of price transparency, so how might we make it easier for users to access the key information they need to book a flight?
+        </div>
+    </div>
+        <div class="content-subtitle">SOLUTION</div>
+        <div class="left-col-content">
+          Provide a seamless booking process with clear flight information and transparency about times and prices from start to finish.
+        </div>
+  </div>
+  <div class="right-content">
+    <div class="content-section">
+      <div class="content-subtitle">USER FLOW</div>
+        <div>
+          I created a flowchart to demonstrate the process of the target user when she books a flight online, which helped me visualize what pages needed to be designed.
+        </div>
+        <br>
+        <img src="assets/clearsky/clearsky_user_flow.png"
+             class="content-image-no-shadow"
+             (click)="openDialog('assets/clearsky/clearsky_user_flow.png')">
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Design
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+      <div class="content-subtitle">SKETCHES</div>
+      <div class="left-col-content">
+        <p>
+          I explored ideas by sketching the first screens a user would interact with when searching for a flight.
+        </p>
+        <p>
+          I focused on including familiar design patterns and an easy-to-understand flight info layout.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="right-content-wide">
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">HOMEPAGE</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">DEPARTING FLIGHTS</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">RETURN FLIGHTS</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">FLIGHT SUMMARY</div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_sketch_1.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_sketch_1.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_sketch_2.png"
+            class="content-image"
+            (click)="openDialog('assets/clearsky/clearsky_sketch_2.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_sketch_3.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_sketch_3.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_sketch_4.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_sketch_4.png')">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="content-subtitle">LOW FIDELITY WIREFRAMES</div>
+    <div class="left-col-content">
+      I built on the sketches by adding details and features by referring to the goals and needs of the target user. For example: including a price breakdown in Flight Summary for price transparency.
+    </div>
+  </div>
+  <div class="right-content-wide" style="padding-top: 0px;">
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">HOME (MOBILE)</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">HOME (DESKTOP)</div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_lf_wireframe_1.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_lf_wireframe_1.png')">
+      </div>
+      <div class="wireframes-subsection" style="flex-basis: 66%;">
+        <img src="assets/clearsky/clearsky_lf_wireframe_2.png"
+            class="content-image"
+            (click)="openDialog('assets/clearsky/clearsky_lf_wireframe_2.png')">
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">DEPARTING FLIGHTS</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">RETURN FLIGHTS</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">FLIGHT SUMMARY</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">TRAVELER INFO</div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_lf_wireframe_3.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_lf_wireframe_3.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_lf_wireframe_4.png"
+            class="content-image"
+            (click)="openDialog('assets/clearsky/clearsky_lf_wireframe_4.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_lf_wireframe_5.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_lf_wireframe_5.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_lf_wireframe_6.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_lf_wireframe_6.png')">
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">SEAT MAP</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">PAYMENT INFO</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">CONFIRMATION</div>
+      </div>
+      <div class="wireframes-subsection"> </div>
+    </div>
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_lf_wireframe_7.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_lf_wireframe_7.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_lf_wireframe_8.png"
+            class="content-image"
+            (click)="openDialog('assets/clearsky/clearsky_lf_wireframe_8.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_lf_wireframe_9.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_lf_wireframe_9.png')">
+      </div>
+      <div class="wireframes-subsection"> </div>
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="content-section">
+      <div class="content-subtitle">UI DESIGN: BRANDING</div>
+    </div>
+  </div>
+  <div class="right-content" style="padding-top: 0px;">
+    <div class="content-section">
+      My goal for ClearSky’s branding was to evoke transparency with a refreshing look and feel. I explored ideas with simple shapes and fonts before coming up with the final brand logo.
+    </div>
+    <img src="assets/clearsky/clearsky_branding.png"
+         class="content-image" style="width: 75%"
+         (click)="openDialog('assets/clearsky/clearsky_branding.png')">
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="content-section">
+      <div class="content-subtitle">UI DESIGN: VISUAL EXPLORATION</div>
+      <div class="left-col-content">
+        <p>
+          After creating the brand name and logo, I looked at travel images for inspiration on color and typography.
+        </p>
+        <p>
+          I explored four different options to visualize UI layouts and test what pairings worked well to represent the brand while being easy for users to interact with.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="right-content" style="padding-top: 0px;">
+    <div class="content-section">
+      I wanted to give users a sense of reliability and warmth, so I selected blue colors and paired them with classic, readable font types.
+    </div>
+    <div class="sketches-container">
+      <div class="wireframes-subsection" style="margin-bottom: 10px">
+        <div class="coral-subtitle">VERSION 1</div>
+      </div>
+      <div class="wireframes-subsection" style="margin-bottom: 10px">
+        <div class="coral-subtitle"> </div>
+      </div>
+      <div class="wireframes-subsection" style="margin-bottom: 10px">
+        <div class="coral-subtitle">VERSION 2</div>
+      </div>
+      <div class="wireframes-subsection" style="margin-bottom: 10px">
+        <div class="coral-subtitle"> </div>
+      </div>
+    </div>
+    <div class="sketches-container" style="margin-bottom: 0px">
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_exploration_1.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_exploration_1.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_exploration_2.png"
+            class="content-image"
+            (click)="openDialog('assets/clearsky/clearsky_exploration_2.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_exploration_3.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_exploration_3.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_exploration_4.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_exploration_4.png')">
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="wireframes-subsection" style="margin-bottom: 10px">
+        <div class="coral-subtitle">VERSION 3</div>
+      </div>
+      <div class="wireframes-subsection" style="margin-bottom: 10px">
+        <div class="coral-subtitle"> </div>
+      </div>
+      <div class="wireframes-subsection" style="margin-bottom: 10px">
+        <div class="coral-subtitle">VERSION 4</div>
+      </div>
+      <div class="wireframes-subsection" style="margin-bottom: 10px">
+        <div class="coral-subtitle"> </div>
+      </div>
+    </div>
+    <div class="sketches-container" style="margin-bottom: 0px">
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_exploration_5.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_exploration_5.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_exploration_6.png"
+            class="content-image"
+            (click)="openDialog('assets/clearsky/clearsky_exploration_6.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_exploration_7.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_exploration_7.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_exploration_8.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_exploration_8.png')">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="content-section">
+      <div class="content-subtitle">UI DESIGN: UI KIT</div>
+      <div class="left-col-content">
+        <p>
+          I chose version 4 because it highlights the brand color without being overwhelming. The clear design helps make it easy for the user to see important flight information.
+        </p>
+        <p>
+          I applied the visual style to the wireframes and finalized the UI Kit.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="right-content-wide" style="padding-top: 0px;">
+    <div class="sketches-container">
+      <div class="half-page-subsection">
+        <img src="assets/clearsky/clearsky_ui_kit_1.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_ui_kit_1.png')">
+      </div>
+      <div class="half-page-subsection">
+        <img src="assets/clearsky/clearsky_ui_kit_2.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_ui_kit_2.png')">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="content-section">
+      <div class="content-subtitle">HIGH FIDELITY WIREFRAMES</div>
+      <div class="left-col-content">
+        I added branding and UI elements to the mobile and desktop wireframes.
+      </div>
+    </div>
+  </div>
+  <div class="right-content-wide" style="padding-top: 0px;">
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">HOME (MOBILE)</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">DEPARTING FLIGHTS</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">RETURN FLIGHTS</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">FLIGHT SUMMARY</div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_hf_wireframe_1.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_hf_wireframe_1.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_hf_wireframe_2.png"
+            class="content-image"
+            (click)="openDialog('assets/clearsky/clearsky_hf_wireframe_2.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_hf_wireframe_3.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_hf_wireframe_3.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_hf_wireframe_4.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_hf_wireframe_4.png')">
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">TRAVELER INFO</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">SEAT MAP</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">PAYMENT INFO</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">CONFIRMATION</div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_hf_wireframe_5.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_hf_wireframe_5.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_hf_wireframe_6.png"
+            class="content-image"
+            (click)="openDialog('assets/clearsky/clearsky_hf_wireframe_6.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_hf_wireframe_7.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_hf_wireframe_7.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_hf_wireframe_8.png"
+             class="content-image"
+             (click)="openDialog('assets/clearsky/clearsky_hf_wireframe_8.png')">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings" style="padding-top: 20px; padding-bottom: 20px">
+  <div class="sketches-container">
+    <div class="half-page-subsection">
+      <div class="coral-subtitle">HOME (DESKTOP)</div>
+    </div>
+    <div class="half-page-subsection">
+      <div class="coral-subtitle">RETURN FLIGHTS (DESKTOP)</div>
+    </div>
+  </div>
+  <div class="sketches-container">
+    <div class="half-page-subsection">
+      <img src="assets/clearsky/clearsky_hf_wireframe_9.png"
+           class="content-image"
+           (click)="openDialog('assets/clearsky/clearsky_hf_wireframe_9.png')">
+    </div>
+    <div class="half-page-subsection">
+      <img src="assets/clearsky/clearsky_hf_wireframe_10.png"
+          class="content-image"
+          (click)="openDialog('assets/clearsky/clearsky_hf_wireframe_10.png')">
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="content-section">
+      <div class="content-subtitle">HIGH FIDELITY PROTOTYPE</div>
+      <div class="left-col-content">
+        Before conducting usability tests, I designed additional screens and built the mobile prototype in InVision.
+      </div>
+    </div>
+  </div>
+  <div class="right-content-wide" style="padding-top: 0px; padding-bottom: 40px">
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">HOME: DESTINATION</div>
+          <div>
+            User can select destination from auto complete suggestions.
+          </div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">DEPARTURE DATE</div>
+        <div>
+          Simple calendar view shows upcoming months.
+        </div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">RETURN DATE</div>
+        <div>
+          Date selected gets highlighted.
+        </div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">CONFIRM DATES</div>
+        <div>
+          Confirmation button appears once dates are selected.
+        </div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_prototype_1.png"
+             class="content-image-no-shadow"
+             (click)="openDialog('assets/clearsky/clearsky_prototype_1.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_prototype_2.png"
+            class="content-image-no-shadow"
+            (click)="openDialog('assets/clearsky/clearsky_prototype_2.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_prototype_3.png"
+             class="content-image-no-shadow"
+             (click)="openDialog('assets/clearsky/clearsky_prototype_3.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_prototype_4.png"
+             class="content-image-no-shadow"
+             (click)="openDialog('assets/clearsky/clearsky_prototype_4.png')">
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">TRAVELER INFO</div>
+        <div>
+          Info will auto-fill when user selects first name (for testing purposes).
+        </div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">SEAT MAP</div>
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">PAYMENT INFO</div>
+      </div>
+      <div class="wireframes-subsection"> </div>
+    </div>
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_prototype_5.png"
+             class="content-image-no-shadow"
+             (click)="openDialog('assets/clearsky/clearsky_prototype_5.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_prototype_6.png"
+            class="content-image-no-shadow"
+            (click)="openDialog('assets/clearsky/clearsky_prototype_6.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_prototype_7.png"
+             class="content-image-no-shadow"
+             (click)="openDialog('assets/clearsky/clearsky_prototype_7.png')">
+      </div>
+      <div class="wireframes-subsection"> </div>
+    </div>
+  </div>
+</div>
+
+<div class="dark-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Test
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+      <div class="content-subtitle">OBJECTIVES</div>
+      <div class="left-col-content">
+        <ul>
+          <li>Identify roadblocks that keep user from completing the task easily.</li>
+          <br>
+          <li>Find out if the website is easy for users to navigate.</li>
+        </ul>
+      </div>
+    </div>
+      <div class="content-subtitle">METHOD</div>
+      <div class="left-col-content">
+        Remote tests via Zoom
+      </div>
+  </div>
+  <div class="right-content">
+    <div class="content-section">
+      <div class="content-subtitle">HIGH FIDELITY USABILITY TEST</div>
+        <div>
+          Five participants ranging from 25-55 who have booked a flight within the past 3 months were asked to use the prototype to complete the following task:
+        </div>
+        <div class="in-line-quote">
+          You want to book a flight from New York to San Francisco for the first week of August. How would you do this?
+        </div>
+        <div>
+          All participants completed the task without errors, and they reported that booking a flight on the website was easy and straightforward.
+        </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">AFFINITY MAP</div>
+        <div>
+          <p>
+            The successes and pain points confirmed what aspects of the design worked and what needed improvement. I also noted key patterns and insights, which gave me a better understanding of flight booking behavior.
+          </p>
+          <p>
+            The main discovery from testing was that users wanted further transparency with pricing and airline policies before checkout.
+          </p>
+        </div>
+        <br>
+        <img src="assets/clearsky/clearsky_affinity_map.png"
+             class="content-image-no-shadow"
+             (click)="openDialog('assets/clearsky/clearsky_affinity_map.png')">
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Improve
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+      <div class="content-subtitle">DESIGN REVISIONS</div>
+      <div class="left-col-content">
+        <div>
+          I made edits to several screens and added a new one based on feedback from testing.
+        </div>
+        <br>
+        <button mat-stroked-button class="stroked-button" (click)="goToNewTab('https://michellebaamonde864826.invisionapp.com/console/share/ZN184PVBT8')">
+          test final prototype <span class="material-icons font18">arrow_right_alt</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="right-content-wide" style="padding-top: 0px">
+    <div class="sketches-container">
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">NOW PLAYING</div>
+        <div class="content-subtitle-small">INSIGHT</div>
+        <div>
+          Didn’t notice when the screen changed to “Select Return Date” and tried to exit.
+        </div>
+        <br>
+        <div class="content-subtitle-small">EDIT</div>
+        <div>
+          Added “Select return date” label above date details to further indicate to the user that they are on a new screen.
+        </div>
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_final_1.png"
+             class="content-image-no-shadow" style="width: 90%"
+             (click)="openDialog('assets/clearsky/clearsky_final_1.png')">
+      </div>
+      <div class="wireframes-subsection">
+        <div class="coral-subtitle">FLIGHT SUMMARY</div>
+        <div class="content-subtitle-small">PAIN POINT</div>
+        <div>
+          Wanted more info about fare and baggage policies before booking.
+        </div>
+        <br>
+        <div class="content-subtitle-small">EDIT</div>
+        <div>
+          Added details to Flight Summary for more transparency before checkout.
+        </div>
+      </div>
+      <div class="wireframes-subsection">
+        <img src="assets/clearsky/clearsky_final_2.png"
+             class="content-image-no-shadow" style="width: 90%"
+             (click)="openDialog('assets/clearsky/clearsky_final_2.png')">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container" style="padding-top: 20px; padding-bottom: 40px">
+  <div class="sketches-container">
+    <div class="wireframes-subsection">
+      <div class="coral-subtitle">PAYMENT INFO</div>
+      <div class="content-subtitle-small">PAIN POINTS</div>
+      <div>
+        <ul>
+          <li style="margin-bottom: 5px">Price discrepancy between search results and flight summary</li>
+          <li style="margin-bottom: 5px">Didn’t notice passenger details before payment info.</li>
+        </ul>
+      </div>
+      <br>
+      <div class="content-subtitle-small">EDITS</div>
+      <div>
+        <ul>
+          <li style="margin-bottom: 5px">Removed initial tax/fee disclaimer that people skipped over and added disclaimer below the price in each flight card.</li>
+          <li style="margin-bottom: 5px">Altered the passenger details layout to make it more noticeable to the user.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="wireframes-subsection" style="margin-right: 20px">
+      <img src="assets/clearsky/clearsky_final_3.png"
+           class="content-image-no-shadow"
+           (click)="openDialog('assets/clearsky/clearsky_final_3.png')">
+    </div>
+    <div class="wireframes-subsection">
+      <div class="coral-subtitle">PROCESSING</div>
+      <div>
+        Added a processing payment animation before the confirmation page to keep users engaged and assure users their flight is being officially booked.
+      </div>
+    </div>
+    <div class="wireframes-subsection" style="margin-right: 20px">
+      <img src="assets/clearsky/clearsky_final_4.png"
+           class="content-image-no-shadow"
+           (click)="openDialog('assets/clearsky/clearsky_final_4.png')">
+    </div>
+    <div class="wireframes-subsection">
+      <div class="coral-subtitle">CONFIRMATION</div>
+      <div class="content-subtitle-small">PAIN POINTS</div>
+      <div>
+        Wanted information about a confirmation email.
+      </div>
+      <br>
+      <div class="content-subtitle-small">EDITS</div>
+      <div>
+        Added a message informing users they will receive a confirmation email.
+      </div>
+    </div>
+    <div class="wireframes-subsection">
+      <img src="assets/clearsky/clearsky_final_5.png"
+           class="content-image-no-shadow"
+           (click)="openDialog('assets/clearsky/clearsky_final_5.png')">
+    </div>
+  </div>
+</div>
+
+<div class="dark-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Reflection
+    </div>
+  </div>
+  <div class="right-content">
+    <div class="content-section">
+      <div class="content-subtitle">NEXT STEPS</div>
+        <div>
+          Conduct a second round of usability tests with the updated prototype and make necessary revisions based on feedback.
+        </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">WHAT I LEARNED</div>
+        <div>
+          I learned about the importance of transparency to users when booking a service. During research interviews and usability tests, participants expressed the need for certain information in order to make a decision. I aimed to add transparency in every aspect from UX to UI throughout the design process.
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="dark-bg side-paddings content-container">
+  <div class="back-to-top" (click)="scrollToTop()">
+    <div style="height: 36px;">
+      <span class="material-icons" style="font-size: 36px;">expand_less</span>
+    </div>
+    back to top
+  </div>
+  <div class="project-nav-container">
+    <div class="project-nav" (click)="goTo('spotify')">
+      <div class="content-subtitle" style="padding-left: 53px;">
+        PREVIOUS PROJECT
+      </div>
+      <div class="case-title" style="display: flex;">
+        <span class="material-icons" style="font-size: 36px;">chevron_left</span><div>&nbsp; Spotify Feature</div>
+      </div>
+    </div>
+    <div class="project-nav" (click)="goTo('pocket')">
+      <div class="content-subtitle">
+        NEXT PROJECT
+      </div>
+      <div class="case-title" style="display: flex;">
+        <div>Pocket Website &nbsp;</div><span class="material-icons" style="font-size: 36px;">chevron_right</span>
+      </div>
+    </div>
+  </div>
+</div>

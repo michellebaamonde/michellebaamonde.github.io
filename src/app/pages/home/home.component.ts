@@ -30,7 +30,7 @@ export class HomeComponent {
       name: 'Spotify',
       description: 'Adding a new social feature to the popular music streaming app.',
       caption: 'UX + UI DESIGN, RESEARCH',
-      caseUrl: 'template',
+      caseUrl: 'spotify',
       imgPath: 'spotify',
       fullWidth: false
     },
@@ -38,7 +38,7 @@ export class HomeComponent {
       name: 'ClearSky',
       description: 'Responsive, mobile-first website that offers a transparent flight booking process.',
       caption: 'UX + UI DESIGN, RESEARCH, BRANDING',
-      caseUrl: 'template',
+      caseUrl: 'clearsky',
       imgPath: 'clearsky',
       fullWidth: false
     },
@@ -46,7 +46,7 @@ export class HomeComponent {
       name: 'Pocket',
       description: 'Responsive e-commerce website and brand refresh that provides a straightforward shopping experience.',
       caption: 'UX + UI DESIGN, RESEARCH, BRANDING',
-      caseUrl: 'template',
+      caseUrl: 'pocket',
       imgPath: 'pocket',
       fullWidth: false
     },

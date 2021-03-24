@@ -12,7 +12,7 @@ body {
 }
 
 a {
-  color: #E95E5F;
+  color: #FAFAFA;
 }
 
 .pink {
@@ -20,7 +20,7 @@ a {
 }
 
 .full-min-height {
-  min-height: calc(100vh - 257px);//100vh minus height of header and footer combined
+  min-height: calc(100vh - 269px);//100vh minus height of header and footer combined
 }
 
 .full-min-height-no-footer {
@@ -32,7 +32,7 @@ a {
 }
 
 .full-min-height-no-header {
-  min-height: calc(100vh - 89px);//100vh minus height of footer
+  min-height: calc(100vh - 101px);//100vh minus height of footer
 }
 
 
@@ -134,4 +134,46 @@ a {
 .top-of-page {
   position: absolute;
   top: 0px;
+}
+
+.project-nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-nav {
+  cursor: pointer;
+  padding-bottom: 50px;
+}
+
+.mobile-only {
+  display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .no-mobile {
+    display: none;
+  }
+
+  .mobile-only {
+    display: inherit;
+    margin-bottom: 30px;
+  }
+
+  .full-min-height {
+    min-height: calc(100vh - 172px);//100vh minus height of header and footer combined
+  }
+
+  .full-min-height-no-footer {
+    min-height: calc(100vh - 83px);//100vh minus height of header
+  }
+
+  .full-height-no-footer {
+    height: calc(100vh - 83px);//100vh minus height of header
+  }
+
+  .full-min-height-no-header {
+    min-height: calc(100vh - 89px);//100vh minus height of footer
+  }
 }

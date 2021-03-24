@@ -19,7 +19,13 @@
 
 .half-container {
   position: relative;
-  width: 45%;
+  width: 60%;
+  padding-bottom: 20px;
+}
+
+.half-container-img {
+  position: relative;
+  width: 37%;
   padding-bottom: 20px;
 }
 
@@ -44,4 +50,40 @@
   right: 0;
   max-height: 70%;
   max-width: 55%;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .half-container {
+    padding-top: 20px;
+    width: 100%;
+    position: inherit;
+  }
+
+  .half-container-img {
+    position: inherit;
+    width: 100%;
+  }
+
+  .about1 {
+    height: 100%;
+    position: inherit;
+    width: 55%;
+    max-height: inherit;
+    max-width: inherit;
+  }
+
+  .about2 {
+    width: 40%;
+    max-height: inherit;
+    max-width: inherit;
+    bottom: auto;
+    right: auto;
+    left: 47%;
+    top: 16%;
+  }
 }

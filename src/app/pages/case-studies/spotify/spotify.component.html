@@ -1,6 +1,7 @@
 <div class="top-of-page "#topOfPage></div>
 
 <div class="dark-bg banner-container full-height-no-footer side-paddings">
+  <div class="mobile-only"><i>This page is best viewed on a desktop browser!</i></div>
   <div class="title-container">
     <div class="case-title">
       Spotify App Feature:
@@ -9,7 +10,7 @@
       Adding a social feature to the music streaming service
     </div>
   </div>
-  <img src="/assets/pup101_banner.png" class="banner-img">
+  <img src="/assets/spotify/spotify_banner.png" class="banner-img">
 </div>
 
 <div class="light-bg side-paddings column-container">
@@ -23,8 +24,8 @@
       <div class="left-col-content">UX/UI Designer, Researcher</div>
     </div>
     <div class="content-section">
-      <div class="content-subtitle">TOOL</div>
-      <div class="left-col-content">Figma</div>
+      <div class="content-subtitle">TOOLS</div>
+      <div class="left-col-content">Sketch, Marvel</div>
     </div>
     <div class="content-section">
       <div class="content-subtitle">DURATION</div>
@@ -39,37 +40,32 @@
     <div class="content-section">
       <div class="content-subtitle">BACKGROUND</div>
       <div>
-        <p>
-          The rise in pet adoptions due to the COVID-19 lockdown struck a chord with me as an owner of a 2 year old rescue dog. I was thrilled that animals were finding homes and people felt comfort in welcoming a new family member.  But I was also concerned what would happen once people go back to their normal routines and leave their pets home alone, who are likely used to having their owners home all day.
-        </p>
-        <p>
-          People put a lot of effort into finding the right dog, but what happens after they bring their dog home? It can take weeks or months for a dog to fully acclimate into a new home, and it’s important for new owners to be prepared and put in the time and energy their pups will need.
-        </p>
+        Spotify is a leading music streaming service on a mission to connect people with music. In order to improve engagement and retention, they want to help people connect with each other through music.
       </div>
     </div>
     <div class="content-section">
       <div class="content-subtitle">GOAL</div>
       <div>
-        Equip new dog owners with the right tools so they feel confident raising their pet.
+        Integrate a new social feature seamlessly within the existing Spotify application.
       </div>
     </div>
     <div class="content-section">
       <div class="content-subtitle">PROBLEM</div>
       <div>
-        Owners felt unprepared when they brought their new pet home and were overloaded by too much information from online sources when looking for answers on raising their pet.
+        People share their music outside of Spotify because they do not find the share options easily accessible.
       </div>
     </div>
     <div class="content-section">
       <div class="content-subtitle">SOLUTION</div>
       <div>
-        Design a mobile app that provides new owners with essential information to help them create a routine and set their puppy up for success.
+        Design a straightforward way for users to send music and share music tastes with friends within the app.
       </div>
     </div>
   </div>
 </div>
 
 <div class="dark-bg quote">
-  How can we make it easier for new dog owners to know what the essentials are for raising their pet?
+  How might we help users share music within the Spotify app?
 </div>
 
 <div class="light-bg side-paddings column-container">
@@ -82,54 +78,96 @@
       <div class="content-subtitle">GOALS</div>
       <div class="left-col-content">
         <ul>
-          <li>Discover what resources new owners use to raise their dog.</li>
+          <li>Understand how people share music.</li>
           <br>
-          <li>Identify pain points and unmet needs of new owners when taking care of their dog.</li>
+          <li>Learn what motivates people to share or not share music.</li>
           <br>
-          <li>Understand the motivations of dog owners when raising their dog.</li>
+          <li>Identify the pain points and unmet needs of people when they share music.</li>
         </ul>
       </div>
     </div>
     <hr class="page-break" width="50px" noshade size="2px" align="left">
     <div class="content-section">
       <div class="sources">
-        Sources: APPA Pet Industry Market Size & Ownership Statistics, The APPA Generational Report, Volume 2: Findings, ZoomRoom The Pet Industry in 2019, The State of the Pet Industry: Pet Market Statistics and Future Trends
+        Sources: RIAA 2019 Year-End Music Industry Revenue Report, Goodwater Capital Thesis, IFPI Music Consumer Insight Report 2018, AudienceNet The Overall Music Landscape 2018
       </div>
     </div>
   </div>
 
-  <div class="right-content-wide">
+  <div class="right-content">
+    <div class="content-section">
+      <div class="research-list">
+        <div class="content-subtitle">MARKET RESEARCH + COMPETITIVE ANALYSIS</div>
+        <div style="font-size: 18px;">
+          I looked into industry trends and what other music streaming services offer to users.
+        </div>
+        <ul>
+          <li style="margin-bottom: 10px">Streaming accounted for nearly 80% of U.S. music revenue in 2019.</li>
+          <li style="margin-bottom: 10px">60 million U.S. consumers pay for a on-demand streaming subscription.</li>
+          <li style="margin-bottom: 10px">Spotify’s revenue represents 30% of the global music market and 42% of the streaming music market.</li>
+          <li style="margin-bottom: 10px">66% of consumers typically listen to music in the car, 54% during commute, 40% while working or studying.</li>
+          <li style="margin-bottom: 10px">35% of WhatsApp users share links to music using the app, 30% of Facebook users share links to music using the app.</li>
+          <li style="margin-bottom: 10px">38% listen to on-demand streaming on YouTube, 28% listen on Spotify.</li>
+          <li style="margin-bottom: 10px">46% discovered music from FM/AM radio, 33% from YouTube, and 27% from friend recommendations.</li>
+          <li style="margin-bottom: 10px">33% of playlist listening time is dedicated to those created by streaming platforms.</li>
+        </ul>
+      </div>
+      <br>
+      <img src="assets/spotify/spotify_competitive_analysis.png"
+           class="content-image"
+           (click)="openDialog('assets/spotify/spotify_competitive_analysis.png')">
+    </div>
+  </div>
+</div>
+
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="content-subtitle">1-ON-1 INTERVIEWS</div>
+    <div class="left-col-content">
+      <p>
+        Two rounds of interviews were conducted with a total of seven participants.
+      </p>
+      <p>
+        I set out to discover what motivates users to share music, any methods and workarounds they use, and if there is any confusion about what Spotify offers.
+      </p>
+    </div>
+  </div>
+  <div class="right-content-wide" style="padding-top: 0px;">
     <div class="content-section">
       <div class="sketches-container">
         <div class="research-list">
-          <div class="content-subtitle">SECONDARY RESEARCH</div>
+          <div class="content-subtitle">ROUND 1</div>
           <div style="font-size: 18px;">
-            Without direct competitors, I looked into pet industry trends and what resources are available to dog owners.
+            To learn how and why people share or don’t share music, I interviewed five participants about their music sharing experience.
           </div>
           <ul>
-            <li style="margin-bottom: 5px">In 2019, $95.7 billion was spent on pets in the US.</li>
-            <li style="margin-bottom: 5px">63.4 million U.S. households own a dog.</li>
-            <li style="margin-bottom: 5px">Owners refer to in-store browsing, TV ads, Internet, veterinarian, friends, and relatives for awareness on new products.</li>
-            <li style="margin-bottom: 5px">Baby Boomers and Millennials represent the two biggest age groups for pet ownership.</li>
-            <li style="margin-bottom: 5px">Industry is “recession-resistant” due to: multi-generational appeal of pets, treatment as beloved family members, increased awareness of health and happiness benefits from pet ownership, and social media climate that celebrates pets.</li>
-            <li style="margin-bottom: 5px">Concerned with leaving pet alone during the day as a majority of pet owning households have both owners working full time.</li>
-            <li style="margin-bottom: 5px">Owners are turning to technology for a greater sense of their pet's well-being and security. Popular pet tech includes: health and nutrition apps, pet service apps, pet monitoring cameras, and smart toys.</li>
+            <li style="margin-bottom: 10px">3 Spotify Premium subscribers report they don’t usually share music, but recall past instances of sharing music.</li>
+            <li style="margin-bottom: 10px">1 Apple Music subscriber actively shares music.</li>
+            <li style="margin-bottom: 10px">1 iHeartRadio free member never shares music.</li>
+            <li style="margin-bottom: 10px">Share music through a messaging app like iMessage or Facebook Messenger.</li>
+            <li style="margin-bottom: 10px">Sharing options aren’t obvious or easy to access within the app.</li>
+            <li style="margin-bottom: 10px">Don’t always know people’s music taste and if the music they share would be appreciated.</li>
+            <li style="margin-bottom: 10px">Unable to find friends or playlists easily and can’t share music without using third party apps.</li>
+            <li style="margin-bottom: 10px">Want convenient ways to save and share songs, and reference songs and playlist they’ve previously shared with others.</li>
+            <li style="margin-bottom: 10px">Share music when they hear a song that reminds them of someone, share similar artists and songs, share with people who have similar interests, and share with a small group of friends. </li>
+            <li style="margin-bottom: 10px">Make group playlists with friends for events like parties and trips.</li>
           </ul>
         </div>
         <div class="research-list">
-          <div class="content-subtitle">1-ON-1 INTERVIEWS</div>
+          <div class="content-subtitle">ROUND 2</div>
           <div style="font-size: 18px;">
-            Five participants were interviewed for a better understanding of dog ownership behavior and how people raise their dogs.
+            I spoke with two Spotify Premium subscribers who actively share music to discuss issues from round 1 and get more insight on how people use Spotify.
           </div>
           <ul>
-            <li style="margin-bottom: 5px">Adopted or bought dogs as puppies (8-12 weeks old).</li>
-            <li style="margin-bottom: 5px">Focused more on finding the right dog, less on preparing by purchasing supplies and setting up their home.</li>
-            <li style="margin-bottom: 5px">Overwhelmed by too many resources, tried countless training methods, and unable to find clear answers.</li>
-            <li style="margin-bottom: 5px">Stressed from sleepless nights, failures during potty training, crate training, and leash pulling.</li>
-            <li style="margin-bottom: 5px">Felt guilty when leaving dogs at home alone.</li>
-            <li style="margin-bottom: 5px">Surprised by the high costs associated with raising a puppy.</li>
-            <li style="margin-bottom: 5px">Want to know dog essentials from the start, how to keep dogs busy, training methods for a confident, well-behaved dog, places and people to help socialize, and ways to ask other owners for advice.</li>
-            <li style="margin-bottom: 5px">Feel joy in caring for their dog, would do anything for them, look for proximity and price convenience of activities and pet services, and strive to keep their dog healthy and happy.</li>
+            <li style="margin-bottom: 10px">Share music by using the Share to Instagram Stories feature and Copy Link feature (which they paste into a third party messaging app).</li>
+            <li style="margin-bottom: 10px">Chat with friends about music on third party messaging apps.</li>
+            <li style="margin-bottom: 10px">Don't look at friends' profiles because they aren't easy to find and don't have personalized information (such as music taste).</li>
+            <li style="margin-bottom: 10px">Determine what and who to share with based on similar music tastes.</li>
+            <li style="margin-bottom: 10px">Know someone's music taste from their friendship history with that person.</li>
+            <li style="margin-bottom: 10px">Enjoy sharing the Spotify yearly roundup with friends because it contains information they’d like to share and know about their friend’s music taste.</li>
+            <li style="margin-bottom: 10px">Interested to see what kind of music their friends listen to and a way to find music they shared with friends in the past.</li>
+            <li style="margin-bottom: 10px">Use discussion forums like Reddit for music recommendations.</li>
           </ul>
         </div>
       </div>
@@ -137,22 +175,22 @@
     <div class="content-section" style="width: 85%">
       <div class="content-subtitle">EMPATHY MAP</div>
       <div>
-        To get into the mind of the target user, I arranged my interview notes on an empathy map, which helped me visualize the user's feelings and environment.
+        I categorized experiences and quotes from interview participants into what a user thinks, sees, and hears to help me understand more about who the user is.
       </div>
       <br>
-      <img src="assets/pup101_empathy_map.png"
+      <img src="assets/spotify/spotify_empathy_map.png"
            class="content-image"
-           (click)="openDialog('assets/pup101_empathy_map.png')">
+           (click)="openDialog('assets/spotify/spotify_empathy_map.png')">
     </div>
     <div class="content-section" style="width: 85%">
       <div class="content-subtitle">USER PERSONA</div>
       <div>
-        I expanded on the empathy map by building a persona with additional details about the user from insights that came up among multiple interviews. The target user I was designing the app for is Aly, a long-time dog lover who is ready to take on the responsibility of a dog owner.
+        From the empathy map, I shaped a persona to help me understand the behavior of the user I was designing for. Mark is someone who sends music to his loved ones regularly, but is hesitant when it comes to people whose music tastes he isn't familiar with. He wants to know more about his friend’s music tastes so he can actively share music with them.
       </div>
       <br>
-      <img src="assets/pup101_persona.png"
+      <img src="assets/spotify/spotify_persona.png"
            class="content-image"
-           (click)="openDialog('assets/pup101_persona.png')">
+           (click)="openDialog('assets/spotify/spotify_persona.png')">
     </div>
   </div>
 </div>
@@ -166,71 +204,77 @@
     <div class="content-section">
         <div class="content-subtitle">PROBLEM</div>
         <div class="left-col-content">
-          Users are overloaded by too much information from online sources on how to raise a puppy, so how might we make it easier for them to know what the essentials are?
+          People share music outside of Spotify because the share options are not easy to find, so how might we help users share music within the app?
         </div>
     </div>
         <div class="content-subtitle">SOLUTION</div>
         <div class="left-col-content">
-          Prepare new owners with information about puppy basics by helping them set up a routine and checklist.
+          Encourage users to share music with friends within the app through detailed profiles, messaging, and quicker access to the share option.
         </div>
   </div>
   <div class="right-content">
     <div class="content-section">
       <div class="content-subtitle">CRAZY EIGHTS</div>
         <div>
-          Based on Aly’s pain points and frustrations, I made a list of four problem statements to brainstorm ideas for. I used the Crazy Eights exercise (draw eight ideas in five minutes) four times, which resulted in ~30 ideas.
+          <p>
+            After learning about the target user,  I explored three problem statements regarding sharing music within the app, keeping track of music shared, and connecting with people with similar music tastes.
+          </p>
+          <p>
+            I brainstormed ideas using the Crazy Eights method for a rapid way of determining which problem to focus on.
+          </p>
         </div>
       <br>
       <div class="sketches-container">
-        <img src="assets/pup101_crazy_eights_1.png"
+        <img src="assets/spotify/spotify_crazy_eights_1.jpeg"
              class="content-image" style="width: 50%; padding-right: 20px"
-             (click)="openDialog('assets/pup101_crazy_eights_1.png')">
-        <img src="assets/pup101_crazy_eights_2.png"
+             (click)="openDialog('assets/spotify/spotify_crazy_eights_1.jpeg')">
+        <img src="assets/spotify/spotify_crazy_eights_2.jpeg"
              class="content-image" style="width: 50%;"
-             (click)="openDialog('assets/pup101_crazy_eights_2.png')">
+             (click)="openDialog('assets/spotify/spotify_crazy_eights_2.jpeg')">
       </div>
       <br>
       <div class="sketches-container">
-        <img src="assets/pup101_crazy_eights_3.png"
+        <img src="assets/spotify/spotify_crazy_eights_3.jpeg"
              class="content-image" style="width: 50%; padding-right: 20px"
-             (click)="openDialog('assets/pup101_crazy_eights_3.png')">
-        <img src="assets/pup101_crazy_eights_4.png"
+             (click)="openDialog('assets/spotify/spotify_crazy_eights_3.jpeg')">
+        <img src="assets/spotify/spotify_crazy_eights_4.jpeg"
              class="content-image" style="width: 50%;"
-             (click)="openDialog('assets/pup101_crazy_eights_4.png')">
+             (click)="openDialog('assets/spotify/spotify_crazy_eights_4.jpeg')">
       </div>
     </div>
     <div class="content-section">
       <div class="content-subtitle">STORYBOARDS</div>
         <div>
-          <p>
-            I repeated the Crazy Eights exercise with storyboards to ideate solutions that address the problem that came up most: learning what the basic puppy essentials are.
-          </p>
-          <p>
-            Ideas included a to-do list or schedule, search feature for nearby businesses, and a discussion forum to ask questions and chat with other dog owners.
-          </p>
+          I used the Crazy Eights method to make storyboards with solutions that address the problem of users struggling to share music within the app.
         </div>
       <br>
       <div class="sketches-container">
-        <img src="assets/pup101_storyboard_1.png"
-             class="content-image" style="width: 33%; padding-right: 20px"
-             (click)="openDialog('assets/pup101_storyboard_1.png')">
-        <img src="assets/pup101_storyboard_2.png"
-             class="content-image" style="width: 33%; padding-right: 20px"
-             (click)="openDialog('assets/pup101_storyboard_2.png')">
-        <img src="assets/pup101_storyboard_3.png"
-             class="content-image" style="width: 33%;"
-             (click)="openDialog('assets/pup101_storyboard_3.png')">
+        <img src="assets/spotify/spotify_storyboard_1.jpeg"
+             class="content-image" style="width: 50%; padding-right: 20px"
+             (click)="openDialog('assets/spotify/spotify_storyboard_1.jpeg')">
+        <img src="assets/spotify/spotify_storyboard_2.jpeg"
+             class="content-image" style="width: 50%;"
+             (click)="openDialog('assets/spotify/spotify_storyboard_2.jpeg')">
+      </div>
+      <br>
+      <div class="sketches-container">
+        <img src="assets/spotify/spotify_storyboard_3.jpeg"
+             class="content-image" style="width: 50%; padding-right: 20px"
+             (click)="openDialog('assets/spotify/spotify_storyboard_3.jpeg')">
+        <img src="assets/spotify/spotify_storyboard_4.jpeg"
+             class="content-image" style="width: 50%;"
+             (click)="openDialog('assets/spotify/spotify_storyboard_4.jpeg')">
       </div>
     </div>
     <div class="content-section">
       <div class="content-subtitle">USER FLOW</div>
         <div>
-          I took the first storyboard with a puppy checklist that guides users in setting up a routine for their puppy and mapped a flow with steps they would take.
+          I took ideas from the last storyboard with the option to share directly with a friend, pop-up message, and chat history to map out a flow and help guide the designs.
         </div>
         <br>
-        <img src="assets/pup101_user_flow.png"
-             class="content-image-no-shadow"
-             (click)="openDialog('assets/pup101_user_flow.png')">
+        <img src="assets/spotify/spotify_user_flow.png"
+             class="content-image-no-shadow" style="width: 75%"
+             (click)="openDialog('assets/spotify/spotify_user_flow.png')">
     </div>
   </div>
 </div>
@@ -242,135 +286,74 @@
     </div>
     <hr class="page-break" width="50px" noshade size="2px" align="left">
     <div class="content-section">
-      <div class="content-subtitle">SKETCHES</div>
+      <div class="content-subtitle">SKETCHES + PAPER PROTOTYPE</div>
       <div class="left-col-content">
-        I started by referencing task management apps for inspiration to produce content for each screen.
+        I referenced the Spotify app to ensure consistency in the designs, and created a “paper prototype” for quick feedback on the Share within Spotify feature.
       </div>
     </div>
   </div>
   <div class="right-content-wide">
     <div class="sketches-container">
       <div class="content-subsection">
-        <div class="coral-subtitle">HOME: NEW PUPPY CHECKLIST</div>
+        <div class="coral-subtitle">NOW PLAYING</div>
         <div>
-          Introduce “Create Routine” as a checklist item to set expectations on what puppies need.
+          Share button on the Now Playing screen for quicker access to share options
         </div>
       </div>
       <div class="content-subsection">
-        <div class="coral-subtitle">CREATE ROUTINE</div>
+        <div class="coral-subtitle">SHARE OPTIONS</div>
         <div>
-          Set up routine on a single screen. Alternate layout is a separate screen for each category (meals, potty, exercise).
+          Spotify Friends (utilizing existing user profiles) as a share option
         </div>
       </div>
       <div class="content-subsection">
-        <div class="coral-subtitle">ROUTINE OVERVIEW: VARIATION 1</div>
+        <div class="coral-subtitle">FRIENDS LIST</div>
         <div>
-          Display final routine separated by routine category
-        </div>
-      </div>
-      <div class="content-subsection">
-        <div class="coral-subtitle">ROUTINE OVERVIEW: VARIATION 2</div>
-        <div>
-          Display final routine in chronological order
+          Suggestions on who to share with based on share history and similar music taste.
         </div>
       </div>
     </div>
     <div class="sketches-container">
       <div class="content-subsection">
-        <img src="assets/pup101_sketch_1.png"
+        <img src="assets/spotify/spotify_sketch_1.png"
              class="content-image-no-shadow" style="width: 75%"
-             (click)="openDialog('assets/pup101_sketch_1.png')">
+             (click)="openDialog('assets/spotify/spotify_sketch_1.png')">
       </div>
       <div class="content-subsection">
-        <img src="assets/pup101_sketch_2.png"
+        <img src="assets/spotify/spotify_sketch_2.png"
             class="content-image-no-shadow" style="width: 75%"
-            (click)="openDialog('assets/pup101_sketch_2.png')">
+            (click)="openDialog('assets/spotify/spotify_sketch_2.png')">
       </div>
       <div class="content-subsection">
-        <img src="assets/pup101_sketch_3.png"
+        <img src="assets/spotify/spotify_sketch_3.png"
              class="content-image-no-shadow" style="width: 75%"
-             (click)="openDialog('assets/pup101_sketch_3.png')">
+             (click)="openDialog('assets/spotify/spotify_sketch_3.png')">
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <div class="coral-subtitle">PROFILE WITH MESSAGE POP-UP</div>
+        <div>
+          Adding music taste offers personalization and useful info to share with friends.
+        </div>
       </div>
       <div class="content-subsection">
-        <img src="assets/pup101_sketch_4.png"
+        <div class="coral-subtitle">MESSAGE HISTORY</div>
+        <div>
+          In-app messaging feature helps users keep track of shared music.
+        </div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <img src="assets/spotify/spotify_sketch_4.png"
              class="content-image-no-shadow" style="width: 75%"
-             (click)="openDialog('assets/pup101_sketch_4.png')">
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="light-bg side-paddings column-container">
-  <div class="left-content">
-    <div class="content-subtitle">LOW FIDELITY WIREFRAMES</div>
-    <div class="left-col-content">
-      I added details to the sketches in Figma in order to build and test a low fidelity prototype for quick user feedback.
-    </div>
-  </div>
-  <div class="right-content-wide" style="padding-top: 0px;">
-    <div class="sketches-container">
-      <div class="content-subsection">
-        <div class="coral-subtitle">HOME: NEW PUPPY CHECKLIST</div>
-        <div>
-          Prompts user to start with the next item on their checklist
-        </div>
+             (click)="openDialog('assets/spotify/spotify_sketch_4.png')">
       </div>
       <div class="content-subsection">
-        <div class="coral-subtitle">CREATE ROUTINE</div>
-        <div>
-          Added advice for each category to help educate the user
-        </div>
-      </div>
-      <div class="content-subsection">
-        <div class="coral-subtitle">CREATE ROUTINE: SET REMINDERS</div>
-        <div>
-          Time overlays will appear if a user decides to set reminders
-        </div>
-      </div>
-    </div>
-    <div class="sketches-container">
-      <div class="content-subsection">
-        <img src="assets/pup101_lf_wireframe_1.png"
-             class="content-image" style="width: 66%"
-             (click)="openDialog('assets/pup101_lf_wireframe_1.png')">
-      </div>
-      <div class="content-subsection">
-        <img src="assets/pup101_lf_wireframe_2.png"
-            class="content-image" style="width: 66%"
-            (click)="openDialog('assets/pup101_lf_wireframe_2.png')">
-      </div>
-      <div class="content-subsection">
-        <img src="assets/pup101_lf_wireframe_3.png"
-             class="content-image" style="width: 66%"
-             (click)="openDialog('assets/pup101_lf_wireframe_3.png')">
-      </div>
-    </div>
-    <div class="sketches-container">
-      <div class="content-subsection">
-        <div class="coral-subtitle">ROUTINE OVERVIEW: TIME</div>
-      </div>
-      <div class="content-subsection">
-        <div class="coral-subtitle">ROUTINE OVERVIEW: CATEGORY</div>
-      </div>
-      <div class="content-subsection">
-        <div class="coral-subtitle">HOME: ROUTINE SCHEDULE</div>
-      </div>
-    </div>
-    <div class="sketches-container">
-      <div class="content-subsection">
-        <img src="assets/pup101_lf_wireframe_4.png"
-             class="content-image" style="width: 66%"
-             (click)="openDialog('assets/pup101_lf_wireframe_4.png')">
-      </div>
-      <div class="content-subsection">
-        <img src="assets/pup101_lf_wireframe_5.png"
-            class="content-image" style="width: 66%"
-            (click)="openDialog('assets/pup101_lf_wireframe_5.png')">
-      </div>
-      <div class="content-subsection">
-        <img src="assets/pup101_lf_wireframe_6.png"
-             class="content-image" style="width: 66%"
-             (click)="openDialog('assets/pup101_lf_wireframe_6.png')">
+        <img src="assets/spotify/spotify_sketch_5.png"
+            class="content-image-no-shadow" style="width: 75%"
+            (click)="openDialog('assets/spotify/spotify_sketch_5.png')">
       </div>
     </div>
   </div>
@@ -382,15 +365,11 @@
       <div class="content-subtitle">LOW FIDELITY USABILITY TEST</div>
       <div class="left-col-content">
         <p>
-          Three participants were asked to use the app to create a routine for their new puppy.
+          Two participants were tasked to share a song with a friend on Spotify.
         </p>
         <p>
-          My test objective was to get feedback on two features:
+          The prototype was presented on a computer screen and I scrolled to the next screen based on what the user said they would interact with.
         </p>
-        <ul>
-          <li style="margin-bottom: 5px">What do users think about setting up a routine on a single screen (vs separate screens)?</li>
-          <li style="margin-bottom: 5px">Which routine overview layout do users prefer?</li>
-        </ul>
       </div>
     </div>
   </div>
@@ -398,285 +377,94 @@
     <div class="content-section">
       <div class="content-subtitle">AFFINITY MAP</div>
         <div>
-          The key takeaways from the first usability test were:
+          <p>
+            The test helped validate my ideas of sharing within Spotify and grouping friends into categories.
+          </p>
+          <p>
+            I also discovered what didn’t work such as confusion about the location of the music note icon on the chat screen and how a user would access the message box on someone’s profile.
+          </p>
         </div>
-        <ul>
-          <li style="margin-bottom: 10px; margin-left: 10px; font-size: 16px">“Create Routine” on a single screen doesn’t work. Too many routine items and it was hard for users to focus on the current section when they were still able to see the previous section.</li>
-          <li style="margin-bottom: 10px; margin-left: 10px; font-size: 16px">Confused by "Set reminders" toggle above time sessions. One user thought it functioned as a dropdown and tried to remove the Meals section from view so he could focus on the Potty section.</li>
-          <li style="margin-bottom: 10px; margin-left: 10px; font-size: 16px">Preferred the final timeline/chronological layout.</li>
-          <li style="margin-bottom: 10px; margin-left: 10px; font-size: 16px">Expressed interest in adding a manual routine item.</li>
-        </ul>
     </div>
-    <img src="assets/pup101_lf_affinity_map.png"
-         class="content-image"
-         (click)="openDialog('assets/pup101_lf_affinity_map.png')">
-  </div>
-</div>
-
-<div class="light-bg side-paddings column-container">
-  <div class="left-content">
-    <div class="content-section">
-      <div class="content-subtitle">UI DESIGN: BRANDING</div>
-    </div>
-  </div>
-  <div class="right-content" style="padding-top: 0px;">
-    <div class="content-section">
-          Combining the brand attributes (playful, fun, caring) with the educational nature of the app, I decided on the brand name "Pup 101" and logo. The paw print created by the 0 in 101 was a nod to the caring nature of the brand and a way to welcome users to the app.
-    </div>
-    <img src="assets/pup101_branding.png"
+    <img src="assets/spotify/spotify_lf_affinity_map.png"
          class="content-image" style="width: 75%"
-         (click)="openDialog('assets/pup101_branding.png')">
+         (click)="openDialog('assets/spotify/spotify_lf_affinity_map.png')">
   </div>
 </div>
 
 <div class="light-bg side-paddings column-container">
   <div class="left-content">
-    <div class="content-section">
-      <div class="content-subtitle">UI DESIGN: VISUAL EXPLORATION</div>
-      <div class="left-col-content">
-        <p>
-          I moved onto imagery and found dog illustrations that embodied the playful, fun nature of the brand.
-        </p>
-        <p>
-          The bright yellow and orange colors from the illustrations inspired the color palette, which paired nicely with DM Sans, a playful and legible typeface.
-        </p>
-        <p>
-          I experimented with these UI elements with four different visual designs.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="right-content" style="padding-top: 0px;">
-    <div class="sketches-container">
-      <div class="wireframes-subsection" style="margin-bottom: 10px">
-        <div class="coral-subtitle">VERSION 1</div>
-      </div>
-      <div class="wireframes-subsection" style="margin-bottom: 10px">
-        <div class="coral-subtitle"> </div>
-      </div>
-      <div class="wireframes-subsection" style="margin-bottom: 10px">
-        <div class="coral-subtitle">VERSION 2</div>
-      </div>
-      <div class="wireframes-subsection" style="margin-bottom: 10px">
-        <div class="coral-subtitle"> </div>
-      </div>
-    </div>
-    <div class="sketches-container" style="margin-bottom: 0px">
-      <div class="wireframes-subsection">
-        <img src="assets/pup101_exploration_1.png"
-             class="content-image"
-             (click)="openDialog('assets/pup101_exploration_1.png')">
-      </div>
-      <div class="wireframes-subsection">
-        <img src="assets/pup101_exploration_2.png"
-            class="content-image"
-            (click)="openDialog('assets/pup101_exploration_2.png')">
-      </div>
-      <div class="wireframes-subsection">
-        <img src="assets/pup101_exploration_3.png"
-             class="content-image"
-             (click)="openDialog('assets/pup101_exploration_3.png')">
-      </div>
-      <div class="wireframes-subsection">
-        <img src="assets/pup101_exploration_4.png"
-             class="content-image"
-             (click)="openDialog('assets/pup101_exploration_4.png')">
-      </div>
-    </div>
-    <div class="sketches-container">
-      <div class="wireframes-subsection" style="margin-bottom: 10px">
-        <div class="coral-subtitle">VERSION 3</div>
-      </div>
-      <div class="wireframes-subsection" style="margin-bottom: 10px">
-        <div class="coral-subtitle"> </div>
-      </div>
-      <div class="wireframes-subsection" style="margin-bottom: 10px">
-        <div class="coral-subtitle">VERSION 4</div>
-      </div>
-      <div class="wireframes-subsection" style="margin-bottom: 10px">
-        <div class="coral-subtitle"> </div>
-      </div>
-    </div>
-    <div class="sketches-container" style="margin-bottom: 0px">
-      <div class="wireframes-subsection">
-        <img src="assets/pup101_exploration_5.png"
-             class="content-image"
-             (click)="openDialog('assets/pup101_exploration_5.png')">
-      </div>
-      <div class="wireframes-subsection">
-        <img src="assets/pup101_exploration_6.png"
-            class="content-image"
-            (click)="openDialog('assets/pup101_exploration_6.png')">
-      </div>
-      <div class="wireframes-subsection">
-        <img src="assets/pup101_exploration_7.png"
-             class="content-image"
-             (click)="openDialog('assets/pup101_exploration_7.png')">
-      </div>
-      <div class="wireframes-subsection">
-        <img src="assets/pup101_exploration_8.png"
-             class="content-image"
-             (click)="openDialog('assets/pup101_exploration_8.png')">
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="light-bg side-paddings column-container">
-  <div class="left-content">
-    <div class="content-section">
-      <div class="content-subtitle">UI DESIGN: UI KIT</div>
-    </div>
-  </div>
-  <div class="right-content" style="padding-top: 0px;">
-    <div class="content-section">
-      <div>
-          I compared the four versions and asked myself which one looked fun to interact with and simple to use for busy new dog parents.
-        <p>
-          I selected version 4 for its straightforward layout and how the main brand color paired nicely with the other UI elements.
-        </p>
-      </div>
-      <br>
-      <img src="assets/pup101_ui_kit.png"
-           class="content-image"
-           (click)="openDialog('assets/pup101_ui_kit.png')">
-      <div class="sources" style="padding-top: 10px">
-        <a href="https://www.freepik.com/free-vector/cartoon-cute-puppy-set-different-situations_6821748.htm">Dog illustrations by macrovector</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="light-bg side-paddings column-container">
-  <div class="left-content">
-    <div class="content-section">
-      <div class="content-subtitle">HIGH FIDELITY WIREFRAMES + PROTOTYPE</div>
-      <div class="left-col-content">
-        I made edits to the wireframes and added UI elements based on feedback from the first usability test.
-      </div>
+    <div class="content-subtitle">HIGH FIDELITY WIREFRAMES + PROTOTYPE</div>
+    <div class="left-col-content">
+      <p>
+        I made edits to the design based on user feedback and added UI elements from Spotify’s existing UI to stay consistent with the brand.
+      </p>
+      <p>
+        I used the Marvel app to create a prototype for my second round of usability tests.
+      </p>
     </div>
   </div>
   <div class="right-content-wide" style="padding-top: 0px;">
     <div class="sketches-container">
-      <div class="wireframes-subsection">
-        <div class="coral-subtitle">HOME: NEW PUPPY CHECKLIST</div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">NOW PLAYING</div>
+      </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">SHARE OPTIONS</div>
+      </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">FRIENDS LIST</div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <img src="assets/spotify/spotify_hf_wireframe_1.png"
+             class="content-image-no-shadow" style="width: 75%"
+             (click)="openDialog('assets/spotify/spotify_hf_wireframe_1.png')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/spotify/spotify_hf_wireframe_2.png"
+            class="content-image-no-shadow" style="width: 75%"
+            (click)="openDialog('assets/spotify/spotify_hf_wireframe_2.png')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/spotify/spotify_hf_wireframe_3.png"
+             class="content-image-no-shadow" style="width: 75%"
+             (click)="openDialog('assets/spotify/spotify_hf_wireframe_3.png')">
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <div class="coral-subtitle">PROFILE WITH MESSAGE POP-UP</div>
         <div>
-          Personalized welcome message
+          Added “share” button to the profile.
         </div>
       </div>
-      <div class="wireframes-subsection">
-        <div class="coral-subtitle">CREATE ROUTINE: OVERVIEW</div>
-        <div>
-          Users set up each routine item on separate screens so they can focus on one category at a time.
-        </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">PROFILE WITH MESSAGE TYPED OUT</div>
       </div>
-      <div class="wireframes-subsection">
-        <div class="coral-subtitle">CREATE ROUTINE: MEALS</div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">MESSAGE HISTORY</div>
         <div>
-          Replaced dropdown with + - buttons since the numbers won’t change drastically.
-        </div>
-      </div>
-      <div class="wireframes-subsection">
-        <div class="coral-subtitle">CREATE ROUTINE: MEALS, REMINDERS ON</div>
-        <div>
-          Moved "Get Reminders" toggle away from times to avoid confusion.
+          Moved music note to the left / away from where the “send” button appears.
         </div>
       </div>
     </div>
     <div class="sketches-container">
-      <div class="wireframes-subsection">
-        <img src="assets/pup101_hf_wireframe_1.png"
-             class="content-image" style="width: 75%"
-             (click)="openDialog('assets/pup101_hf_wireframe_1.png')">
+      <div class="content-subsection">
+        <img src="assets/spotify/spotify_hf_wireframe_4.png"
+             class="content-image-no-shadow" style="width: 75%"
+             (click)="openDialog('assets/spotify/spotify_hf_wireframe_4.png')">
       </div>
-      <div class="wireframes-subsection">
-        <img src="assets/pup101_hf_wireframe_2.png"
-            class="content-image" style="width: 75%"
-            (click)="openDialog('assets/pup101_hf_wireframe_2.png')">
+      <div class="content-subsection">
+        <img src="assets/spotify/spotify_hf_wireframe_5.png"
+            class="content-image-no-shadow" style="width: 75%"
+            (click)="openDialog('assets/spotify/spotify_hf_wireframe_5.png')">
       </div>
-      <div class="wireframes-subsection">
-        <img src="assets/pup101_hf_wireframe_3.png"
-             class="content-image" style="width: 75%"
-             (click)="openDialog('assets/pup101_hf_wireframe_3.png')">
+      <div class="content-subsection">
+        <img src="assets/spotify/spotify_hf_wireframe_6.png"
+             class="content-image-no-shadow" style="width: 75%"
+             (click)="openDialog('assets/spotify/spotify_hf_wireframe_6.png')">
       </div>
-      <div class="wireframes-subsection">
-        <img src="assets/pup101_hf_wireframe_4.png"
-             class="content-image" style="width: 75%"
-             (click)="openDialog('assets/pup101_hf_wireframe_4.png')">
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="light-bg side-paddings" style="padding-top: 20px; padding-bottom: 40px">
-  <div class="sketches-container">
-    <div class="wireframes-subsection">
-      <div class="coral-subtitle">CREATE ROUTINE: MEALS, ADD INSTANCE</div>
-      <div>
-        Users can select an instance to rename it.
-      </div>
-    </div>
-    <div class="wireframes-subsection">
-      <div class="coral-subtitle">CREATE ROUTINE: OVERVIEW</div>
-      <div>
-        Return to setup screen for at-a-glance view and can edit sections.
-      </div>
-    </div>
-    <div class="wireframes-subsection">
-      <div class="coral-subtitle">CREATE ROUTINE: POTTY</div>
-      <div>
-        Potty break times are set around meal times
-      </div>
-    </div>
-    <div class="wireframes-subsection">
-      <div class="coral-subtitle">CREATE ROUTINE: EXERCISE</div>
-      <div>
-        Provide different exercise activities as suggestions
-      </div>
-    </div>
-    <div class="wireframes-subsection">
-      <div class="coral-subtitle">HOME: NEW PUPPY CHECKLIST DONE</div>
-      <div>
-        Return to main checklist for checkmark done animation
-      </div>
-    </div>
-    <div class="wireframes-subsection">
-      <div class="coral-subtitle">HOME: ROUTINE SCHEDULE</div>
-      <div>
-        User can now access daily routine on the home screen.
-      </div>
-    </div>
-  </div>
-  <div class="sketches-container">
-    <div class="wireframes-subsection">
-      <img src="assets/pup101_hf_wireframe_5.png"
-           class="content-image" style="width: 75%"
-           (click)="openDialog('assets/pup101_hf_wireframe_5.png')">
-    </div>
-    <div class="wireframes-subsection">
-      <img src="assets/pup101_hf_wireframe_6.png"
-          class="content-image" style="width: 75%"
-          (click)="openDialog('assets/pup101_hf_wireframe_6.png')">
-    </div>
-    <div class="wireframes-subsection">
-      <img src="assets/pup101_hf_wireframe_7.png"
-           class="content-image" style="width: 75%"
-           (click)="openDialog('assets/pup101_hf_wireframe_7.png')">
-    </div>
-    <div class="wireframes-subsection">
-      <img src="assets/pup101_hf_wireframe_8.png"
-           class="content-image" style="width: 75%"
-           (click)="openDialog('assets/pup101_hf_wireframe_8.png')">
-    </div>
-    <div class="wireframes-subsection">
-      <img src="assets/pup101_hf_wireframe_9.png"
-           class="content-image" style="width: 75%"
-           (click)="openDialog('assets/pup101_hf_wireframe_9.png')">
-    </div>
-    <div class="wireframes-subsection">
-      <img src="assets/pup101_hf_wireframe_10.png"
-           class="content-image" style="width: 75%"
-           (click)="openDialog('assets/pup101_hf_wireframe_10.png')">
     </div>
   </div>
 </div>
@@ -688,38 +476,43 @@
     </div>
     <hr class="page-break" width="50px" noshade size="2px" align="left">
     <div class="content-section">
-        <div class="content-subtitle">OBJECTIVE</div>
-        <div class="left-col-content">
-          Identify frustrating or confusing parts that impact a user's ability to complete the task easily.
-        </div>
+      <div class="content-subtitle">OBJECTIVE</div>
+      <div class="left-col-content">
+        Find areas that prevent users from easily finishing the task.
+      </div>
     </div>
-        <div class="content-subtitle">METHOD</div>
-        <div class="left-col-content">
-          Remote tests via Zoom
-        </div>
+      <div class="content-subtitle">METHOD</div>
+      <div class="left-col-content">
+        Remote tests via Zoom
+      </div>
   </div>
   <div class="right-content">
     <div class="content-section">
       <div class="content-subtitle">HIGH FIDELITY USABILITY TEST</div>
         <div>
-          I reached out to five participants from 27-55 years old who recently raised a puppy or plan to get a puppy. They were given this task to complete using the app:
+          Five participants ranging from 25-29 who use the Spotify app to stream music were tasked with the following:
         </div>
         <div class="in-line-quote">
-          You are planning your new puppy's arrival and want to check off the final item on your to-do list by creating a routine for him. Since he's only 3 months old, you want to stick to a strict schedule. How would you set this up?
+          You are listening to a song on Spotify and want to share it with your friend Dan. How would you do this?
         </div>
         <div>
-          Users were asked to share their screen and think aloud. All participants completed the task with a 100% error-free rate and said the app was easy to use.
+          I predicted that the tests would run without issues since the app follows a similar pattern when using the share feature in messaging apps. While users said the task was easy to complete, we ran into issues with the message pop-up.
         </div>
     </div>
     <div class="content-section">
       <div class="content-subtitle">AFFINITY MAP</div>
         <div>
-          During this second round of testing, I encountered a lot of positive feedback, which validated my design decisions.
+          <p>
+            During tesing, I was intrigued by what users were drawn to first when interacting with the mobile prototype on desktop vs. mobile.
+          </p>
+          <p>
+            Four users who accessed it via their desktop browser reported their eyes were drawn to the green “share” button at the top of the profile instead of the message box at the bottom. The fifth user who used her phone (the intended device) noticed the message box immediately.
+          </p>
         </div>
         <br>
-        <img src="assets/pup101_hf_affinity_map.png"
-             class="content-image-no-shadow"
-             (click)="openDialog('assets/pup101_hf_affinity_map.png')">
+        <img src="assets/spotify/spotify_hf_affinity_map.png"
+             class="content-image-no-shadow" style="width: 75%"
+             (click)="openDialog('assets/spotify/spotify_hf_affinity_map.png')">
     </div>
   </div>
 </div>
@@ -733,64 +526,61 @@
     <div class="content-section">
       <div class="content-subtitle">DESIGN REVISIONS</div>
       <div class="left-col-content">
-        <p>
-          I addressed the pain points and insights from the usability tests.
-        </p>
-        <p>
-          I also cleaned up the prototype transitions for consistency and slowed down the final transition so the user is able to see and fully enjoy completing their checklist.
-        </p>
+        <div>
+          I implemented design changes to address the main issues that came up during testing.
+        </div>
         <br>
-        <button mat-stroked-button class="stroked-button" (click)="goToNewTab('https://www.figma.com/proto/Adu5Hjfr9uhOSuABqSCXrL/Pup-101-Final?node-id=4%3A0&viewport=261%2C169%2C0.10494430363178253&scaling=scale-down')">
+        <button mat-stroked-button class="stroked-button" (click)="goToNewTab('https://marvelapp.com/prototype/4f172ca')">
           test final prototype <span class="material-icons font18">arrow_right_alt</span>
         </button>
       </div>
     </div>
   </div>
-  <div class="right-content-wide" style="padding-top: 0px; padding-bottom: 40px">
+  <div class="right-content-wide" style="padding-bottom: 40px">
     <div class="sketches-container">
-      <div class="wireframes-subsection">
-        <div class="coral-subtitle">CREATE ROUTINE: MEALS</div>
-        <div class="content-subtitle-small">PAIN POINT</div>
-        <div>
-          Wanted to adjust times based on their personal schedule
-        </div>
-        <br>
-        <div class="content-subtitle-small">EDIT</div>
-        <div>
-          <ul>
-            <li>Added time slider</li>
-          </ul>
-        </div>
-      </div>
-      <div class="wireframes-subsection">
-        <img src="assets/pup101_final_1.png"
-             class="content-image-no-shadow" style="width: 90%"
-             (click)="openDialog('assets/pup101_final_1.png')">
-      </div>
-      <div class="wireframes-subsection">
-        <div class="coral-subtitle">CREATE ROUTINE: OVERVIEW</div>
-        <div class="content-subtitle-small">PAIN POINT</div>
-        <div>
-          Wanted to schedule potty break after waking up and right before bedtime.
-        </div>
-        <br>
+      <div class="content-subsection">
+        <div class="coral-subtitle">NOW PLAYING</div>
         <div class="content-subtitle-small">INSIGHT</div>
         <div>
-          Hard to schedule naps since puppies tend to nap whenever they want.
+          Worried thumb would accidentally select like instead of share because they were too close.
         </div>
         <br>
         <div class="content-subtitle-small">EDIT</div>
         <div>
-          <ul>
-            <li style="margin-bottom: 5px">Adjusted times so that the first potty break was before breakfast.</li>
-            <li style="margin-bottom: 5px">Replaced “naps” with “crate” under "Add Routine Item".</li>
-          </ul>
+          Moved share button  away from the heart and other buttons to a spot that is still comfortable for the thumb to access on a mobile device.
         </div>
       </div>
-      <div class="wireframes-subsection">
-        <img src="assets/pup101_final_2.png"
-             class="content-image-no-shadow" style="width: 90%"
-             (click)="openDialog('assets/pup101_final_2.png')">
+      <div class="content-subsection">
+        <div class="coral-subtitle">PROFILE WITH MESSAGE OVERLAY</div>
+        <div class="content-subtitle-small">PAIN POINT</div>
+        <div>
+          Selected green “share” button on profile and didn’t notice message box.
+        </div>
+        <br>
+        <div class="content-subtitle-small">EDIT</div>
+        <div>
+          Changed message box to a pop-up in the center and dimmed the profile so users aren’t distracted from the sharing flow.
+        </div>
+      </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle"> </div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <img src="assets/spotify/spotify_final_1.png"
+             class="content-image-no-shadow" style="width: 75%"
+             (click)="openDialog('assets/spotify/spotify_final_1.png')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/spotify/spotify_final_2.png"
+             class="content-image-no-shadow" style="width: 75%"
+             (click)="openDialog('assets/spotify/spotify_final_2.png')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/spotify/spotify_final_3.png"
+             class="content-image-no-shadow" style="width: 75%"
+             (click)="openDialog('assets/spotify/spotify_final_3.png')">
       </div>
     </div>
   </div>
@@ -806,18 +596,18 @@
     <div class="content-section">
       <div class="content-subtitle">NEXT STEPS</div>
         <ul>
-          <li style="margin-bottom: 10px; margin-left: 10px;">Conduct a final usability test to get feedback from users on the time slider and then build features for the rest of the checklist items.</li>
-          <li style="margin-bottom: 10px; margin-left: 10px;">Create a feature that lets users talk with other owners and find pet services near them (based on user interest in the Explore tab during testing).</li>
+          <li style="margin-bottom: 10px; margin-left: 10px;">Conduct another round of usability tests to test the new share button location and message box with participants using mobile devices instead of desktop. </li>
+          <li style="margin-bottom: 10px; margin-left: 10px;">Make further iterations on the designs and then hand off designs and prototype for implementation.</li>
         </ul>
     </div>
     <div class="content-section">
       <div class="content-subtitle">WHAT I LEARNED</div>
         <div>
           <p>
-            Due to time constraints implemented for this project, I moved forward with one flow (create a routine). By focusing on one problem and feature, I learned the importance of making sure I understood the problem and solved it in the best possible way for the user.
+            A majority of the time spent on this project was to conduct research to discover and understand the problem. I explored many different problems and ideas to find one that would resonate most with the target user.
           </p>
           <p>
-            Through multiple rounds of ideation, sketching, and testing, my ideas evolved and I gained meaningful feedback from users to come up with a final design they enjoyed.
+            During usability testing, I learned how different devices can influence user behavior. The feedback from desktop and mobile users brought up the importance of testing a prototype on the device it is intended for and how to analyze feedback when working within constraints (such as remote testing with mobile devices).
           </p>
         </div>
     </div>
@@ -831,12 +621,22 @@
     </div>
     back to top
   </div>
-  <div class="next-project-container" (click)="goTo('insert/url/here')">
-    <div class="content-subtitle">
-      NEXT PROJECT
+  <div class="project-nav-container">
+    <div class="project-nav" (click)="goTo('pup-101')">
+      <div class="content-subtitle" style="padding-left: 53px;">
+        PREVIOUS PROJECT
+      </div>
+      <div class="case-title" style="display: flex;">
+        <span class="material-icons" style="font-size: 36px;">chevron_left</span><div>&nbsp; Pup 101 App</div>
+      </div>
     </div>
-    <div class="case-title" style="display: flex;">
-      <div>Spotify Feature &nbsp;</div><span class="material-icons" style="font-size: 36px;">chevron_right</span>
+    <div class="project-nav" (click)="goTo('clearsky')">
+      <div class="content-subtitle">
+        NEXT PROJECT
+      </div>
+      <div class="case-title" style="display: flex;">
+        <div>ClearSky Website &nbsp;</div><span class="material-icons" style="font-size: 36px;">chevron_right</span>
+      </div>
     </div>
   </div>
 </div>

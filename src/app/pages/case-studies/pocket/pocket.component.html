@@ -1,0 +1,742 @@
+<div class="top-of-page "#topOfPage></div>
+
+<div class="dark-bg banner-container full-height-no-footer side-paddings">
+  <div class="mobile-only"><i>This page is best viewed on a desktop browser!</i></div>
+  <div class="title-container">
+    <div class="case-title">
+      Pocket Website:
+    </div>
+    <div class="case-subtitle">
+      Designing a responsive website for a clothing retailer
+    </div>
+  </div>
+  <img src="/assets/pocket/pocket_banner.png" class="banner-img">
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Project Overview
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+      <div class="content-subtitle">ROLE</div>
+      <div class="left-col-content">UX/UI Designer, Researcher</div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">TOOLS</div>
+      <div class="left-col-content">Sketch, InVision, OptimalSort</div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">DURATION</div>
+      <div class="left-col-content">5 weeks</div>
+    </div>
+    <div class="content-section">
+      <div class="left-col-content" style="font-size: 14px;">Note: This was a speculative project for Designlab.</div>
+    </div>
+  </div>
+
+  <div class="right-content">
+    <div class="content-section">
+      <div class="content-subtitle">BACKGROUND</div>
+      <div>
+        Pocket is a global clothing retailer with over 400 stores in 32 countries with a mission to offer clothing for everyone and sell quality clothes at a reasonable price.
+      </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">GOAL</div>
+      <div>
+        Design a responsive e-commerce website with a branding refresh that appeals to a variety of customers.
+      </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">PROBLEM</div>
+      <div>
+        Users have a difficult time navigating large product assortments, reviews, and sizing options when shopping online.
+      </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">SOLUTION</div>
+      <div>
+        Design an easy-to-use shopping experience with clear categories and a modern visual design that appeals to a wide audience.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="dark-bg quote">
+  How might we make it more convenient for users to find clothing items that fit their preferences?
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Research
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+      <div class="content-subtitle">GOALS</div>
+      <div class="left-col-content">
+        <ul>
+          <li>Identify pain points and unmet needs of people when shopping online.</li>
+          <br>
+          <li>Learn what motivates people to shop online.</li>
+        </ul>
+      </div>
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+      <div class="sources">
+        Sources: Statista E-commerce share of total global retail sales worldwide, 99 Firms M Commerce Statistics, CPC Strategy, KPMG 2017 Global Online Consumer Report
+      </div>
+    </div>
+  </div>
+
+  <div class="right-content">
+    <div class="content-section">
+      <div class="research-list">
+        <div class="content-subtitle">MARKET RESEARCH + COMPETITIVE ANALYSIS</div>
+        <div style="font-size: 18px;">
+          I looked at market trends and what similar clothing brands are doing in the online shopping space.
+        </div>
+        <ul>
+          <li style="margin-bottom: 10px">14.1% of retail purchases worldwide are eCommerce sales.</li>
+          <li style="margin-bottom: 10px">49% of website traffic comes from mobile devices.</li>
+          <li style="margin-bottom: 10px">51% of Americans have used a mobile device for online shopping.</li>
+          <li style="margin-bottom: 10px">88% of shoppers think detailed product pages are crucial when making a purchase decision.</li>
+          <li style="margin-bottom: 10px">55% of consumers search online for reviews and 47% visit the company website to research products.</li>
+        </ul>
+        <div style="font-size: 18px;">
+          I went through the online shopping experiences of similar clothing brands to spot common design patterns and areas to improve.
+        </div>
+      </div>
+      <br>
+      <img src="assets/pocket/pocket_competitive_analysis.png"
+           class="content-image"
+           (click)="openDialog('assets/pocket/pocket_competitive_analysis.png')">
+    </div>
+    <div class="content-section">
+      <div class="research-list">
+        <div class="content-subtitle">1-ON-1 INTERVIEWS</div>
+        <div style="font-size: 18px;">
+          To better understand online shopping behavior, I interviewed three participants about an online shopping experience for clothes within the past week.
+        </div>
+        <ul>
+          <li style="margin-bottom: 10px">Users find many online reviews unreliable, dislike pop up windows that ask you to log in, multiple clicks to get to their desired product, and get overwhelmed by too many product choices.</li>
+          <li style="margin-bottom: 10px">Want free, fast shipping and easy returns for convenience, shop at specific stores that carry their unique size, and will pay a higher price for quality material.</li>
+          <li style="margin-bottom: 10px">Shop for specific items they plan to wear in the future, start the shopping process on their phone, and prefer online shopping in the comfort of their home.</li>
+          <li style="margin-bottom: 10px">Shop recommendations from friends and other recommended products on the product page.</li>
+          <li style="margin-bottom: 10px">Browse multiple retailers to compare, save items for later, and will wait up to a week before purchasing.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">USER PERSONA</div>
+      <div>
+        To understand who I was designing for, I used my research notes to develop a persona of the target user. Ashley prefers online shopping for convenience, relies on product reviews, and will sit on a purchase to ensure she is spending her hard-earned money on a quality product.
+      </div>
+      <br>
+      <img src="assets/pocket/pocket_persona.png"
+           class="content-image"
+           (click)="openDialog('assets/pocket/pocket_persona.png')">
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">EMPATHY MAP</div>
+      <div>
+        To help build the persona and understand the user, I categorized my notes based on the user’s surroundings. Getting into the user’s mind helped inform design decisions throughout the design process.
+      </div>
+      <br>
+      <img src="assets/pocket/pocket_empathy_map.png"
+           class="content-image"
+           (click)="openDialog('assets/pocket/pocket_empathy_map.png')">
+    </div>
+  </div>
+</div>
+
+<div class="dark-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Define
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+        <div class="content-subtitle">PROBLEM</div>
+        <div class="left-col-content">
+          Users have a difficult time navigating large product assortments, reviews, and sizing options, so how might we make it more convenient to find items that fit their preferences?
+        </div>
+    </div>
+        <div class="content-subtitle">SOLUTION</div>
+        <div class="left-col-content">
+          Provide a straightforward online shopping experience with clear categories and accurate product information.
+        </div>
+  </div>
+  <div class="right-content-wide">
+    <div class="content-section">
+      <div class="sketches-container">
+        <div class="half-page-subsection" style="font-size: 18px; padding-right: 40px; margin-bottom: 0px">
+          <div class="content-subtitle">PROJECT GOALS</div>
+          <div>
+            Based on the original brief and research, I outlined the goals of the business and the user to find their shared goals and what key features to include in the design.
+          </div>
+          <br>
+          <img src="assets/pocket/pocket_project_goals.png"
+               class="content-image-no-shadow"
+               (click)="openDialog('assets/pocket/pocket_project_goals.png')">
+        </div>
+        <div class="half-page-subsection" style="font-size: 18px; margin-bottom: 0px">
+          <div class="content-subtitle">PRODUCT FEATURE ROADMAP</div>
+          <div>
+            It was important to back up each product feature by research findings to prioritize our users’ needs when designing.
+          </div>
+          <br>
+          <img src="assets/pocket/pocket_roadmap.png"
+               class="content-image-no-shadow"
+               (click)="openDialog('assets/pocket/pocket_roadmap.png')">
+        </div>
+      </div>
+    </div>
+    <div class="content-section" style="width: 85%">
+      <div class="content-subtitle">CARD SORTING</div>
+      <div>
+        To construct the website’s information architecture, I needed to learn how people categorize clothing items. I asked ten participants to sort 30 clothing items using open card sorting via OptimalSort.
+      </div>
+      <ul>
+        <li style="font-size: 16px; margin-bottom: 10px">69 categories were created, with a median of seven categories per participant. </li>
+        <li style="font-size: 16px; margin-bottom: 10px">Most popular categories were by product type: accessories, bottoms, coats/jackets, dresses, outwerwear, shoes, and tops.</li>
+        <li style="font-size: 16px; margin-bottom: 10px">Additional categories included: occasion, gender, season, and style/outfit.</li>
+      </ul>
+      <br>
+      <img src="assets/pocket/pocket_card_sorting.png"
+           class="content-image-no-shadow"
+           (click)="openDialog('assets/pocket/pocket_card_sorting.png')">
+    </div>
+    <div class="content-section" style="width: 85%">
+      <div class="content-subtitle">SITEMAP</div>
+      <div>
+        Using the categories from card sorting exercise, I mapped out the website pages. I included pages typically found on retail websites (Account, Help, and About) to provide users with support and company information to make informed purchase decisions.
+      </div>
+      <br>
+      <img src="assets/pocket/pocket_sitemap.png"
+           class="content-image-no-shadow"
+           (click)="openDialog('assets/pocket/pocket_sitemap.png')">
+    </div>
+    <div class="content-section" style="width: 85%">
+      <div class="content-subtitle">USER FLOW</div>
+      <div>
+        I made a flowchart to depict how a user would purchase a pair of jeans, which helped me decide what web pages to design so that the shopping process flows seamlessly for the user.
+      </div>
+      <br>
+      <img src="assets/pocket/pocket_user_flow.png"
+           class="content-image-no-shadow"
+           (click)="openDialog('assets/pocket/pocket_user_flow.png')">
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Design
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+      <div class="content-subtitle">SKETCHES</div>
+      <div class="left-col-content">
+        I sketched different homepage layouts to explore some design options.
+      </div>
+    </div>
+  </div>
+  <div class="right-content-wide">
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <div class="coral-subtitle">HOMEPAGE: LAYOUT 1</div>
+        <div>
+          Highlights editorial and social media sharing to tell brand's story and give users sense of community.
+        </div>
+      </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">HOMEPAGE: LAYOUT 2</div>
+        <div>
+          Highlights photography as the majority of the homepage is reserved for images.
+        </div>
+      </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">HOMEPAGE: LAYOUT 3</div>
+        <div>
+          Highlights sales and pricing for a price-conscious user.
+        </div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <img src="assets/pocket/pocket_sketch_1.jpeg"
+             class="content-image"
+             (click)="openDialog('assets/pocket/pocket_sketch_1.jpeg')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/pocket/pocket_sketch_2.jpeg"
+            class="content-image"
+            (click)="openDialog('assets/pocket/pocket_sketch_2.jpeg')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/pocket/pocket_sketch_3.jpeg"
+             class="content-image"
+             (click)="openDialog('assets/pocket/pocket_sketch_3.jpeg')">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="content-subtitle">LOW FIDELITY WIREFRAMES</div>
+    <div class="left-col-content">
+      <p>
+        I chose the first layout because its straightforward design would resonate most with the target user who is looking for convenience and quality.
+      </p>
+      <p>
+        It was important to make the website responsive since research showed that users start most of their shopping on mobile devices.
+      </p>
+    </div>
+  </div>
+  <div class="right-content" style="padding-top: 0px;">
+    <div class="sketches-container">
+      <div class="content-subsection" style="flex-basis: 50%;">
+        <div class="coral-subtitle">HOMEPAGE (DESKTOP)</div>
+      </div>
+      <div class="content-subsection" style="flex-basis: 35%;">
+        <div class="coral-subtitle">HOMEPAGE (TABLET)</div>
+      </div>
+      <div class="content-subsection" style="flex-basis: 15%;">
+        <div class="coral-subtitle">HOMEPAGE (MOBILE)</div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="content-subsection" style="flex-basis: 50%;">
+        <img src="assets/pocket/pocket_lf_wireframe_1.png"
+             class="content-image"
+             (click)="openDialog('assets/pocket/pocket_lf_wireframe_1.png')">
+      </div>
+      <div class="content-subsection" style="flex-basis: 35%;">
+        <img src="assets/pocket/pocket_lf_wireframe_2.png"
+            class="content-image"
+            (click)="openDialog('assets/pocket/pocket_lf_wireframe_2.png')">
+      </div>
+      <div class="content-subsection" style="flex-basis: 15%;">
+        <img src="assets/pocket/pocket_lf_wireframe_3.png"
+            class="content-image"
+            (click)="openDialog('assets/pocket/pocket_lf_wireframe_3.png')">
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="half-page-subsection">
+        <div class="coral-subtitle">CATEGORY PAGE</div>
+      </div>
+      <div class="half-page-subsection">
+        <div class="coral-subtitle">PRODUCT PAGE</div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="half-page-subsection">
+        <img src="assets/pocket/pocket_lf_wireframe_4.png"
+             class="content-image"
+             (click)="openDialog('assets/pocket/pocket_lf_wireframe_4.png')">
+      </div>
+      <div class="half-page-subsection">
+        <img src="assets/pocket/pocket_lf_wireframe_5.png"
+            class="content-image"
+            (click)="openDialog('assets/pocket/pocket_lf_wireframe_5.png')">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="content-section">
+      <div class="content-subtitle">UI DESIGN: BRANDING</div>
+    </div>
+  </div>
+  <div class="right-content" style="padding-top: 0px;">
+    <div class="content-section">
+      When rebranding Pocket (formerly Mirror), my goal was to represent the brand as neutral, modern and fresh. This was expressed through simple, clean, and readable typefaces, refreshing colors, and a brand name and logo that resonated with all of the brand's customers: women, men, and kids.
+    </div>
+    <img src="assets/pocket/pocket_branding.png"
+         class="content-image" style="width: 75%"
+         (click)="openDialog('assets/pocket/pocket_branding.png')">
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="content-section">
+      <div class="content-subtitle">UI DESIGN: UI KIT</div>
+      <div class="left-col-content">
+        After finalizing the logo, typography, and colors, I searched for the right imagery to pair them with. This included product photography that showcased clothing items on their own and on models with a neutral background.
+      </div>
+    </div>
+  </div>
+  <div class="right-content-wide" style="padding-top: 0px;">
+    <div class="sketches-container">
+      <div class="half-page-subsection">
+        <img src="assets/pocket/pocket_ui_kit_1.png"
+             class="content-image"
+             (click)="openDialog('assets/pocket/pocket_ui_kit_1.png')">
+      </div>
+      <div class="half-page-subsection">
+        <img src="assets/pocket/pocket_ui_kit_2.jpg"
+             class="content-image"
+             (click)="openDialog('assets/pocket/pocket_ui_kit_2.jpg')">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="content-subtitle">HIGH FIDELITY WIREFRAMES</div>
+    <div class="left-col-content">
+      I applied the branding and UI elements to the homepage, category page, and product page in order to bring the Pocket brand to life.
+    </div>
+  </div>
+  <div class="right-content" style="padding-top: 0px;">
+    <div class="sketches-container">
+      <div class="content-subsection" style="flex-basis: 50%;">
+        <div class="coral-subtitle">HOMEPAGE (DESKTOP)</div>
+      </div>
+      <div class="content-subsection" style="flex-basis: 35%;">
+        <div class="coral-subtitle">HOMEPAGE (TABLET)</div>
+      </div>
+      <div class="content-subsection" style="flex-basis: 15%;">
+        <div class="coral-subtitle">HOMEPAGE (MOBILE)</div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="content-subsection" style="flex-basis: 50%;">
+        <img src="assets/pocket/pocket_hf_wireframe_1.png"
+             class="content-image"
+             (click)="openDialog('assets/pocket/pocket_hf_wireframe_1.png')">
+      </div>
+      <div class="content-subsection" style="flex-basis: 35%;">
+        <img src="assets/pocket/pocket_hf_wireframe_2.png"
+            class="content-image"
+            (click)="openDialog('assets/pocket/pocket_hf_wireframe_2.png')">
+      </div>
+      <div class="content-subsection" style="flex-basis: 15%;">
+        <img src="assets/pocket/pocket_hf_wireframe_3.png"
+            class="content-image"
+            (click)="openDialog('assets/pocket/pocket_hf_wireframe_3.png')">
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="half-page-subsection">
+        <div class="coral-subtitle">CATEGORY PAGE</div>
+      </div>
+      <div class="half-page-subsection">
+        <div class="coral-subtitle">PRODUCT PAGE</div>
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="half-page-subsection">
+        <img src="assets/pocket/pocket_hf_wireframe_4.png"
+             class="content-image"
+             (click)="openDialog('assets/pocket/pocket_hf_wireframe_4.png')">
+      </div>
+      <div class="half-page-subsection">
+        <img src="assets/pocket/pocket_hf_wireframe_5.png"
+            class="content-image"
+            (click)="openDialog('assets/pocket/pocket_hf_wireframe_5.png')">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="content-section">
+      <div class="content-subtitle">HIGH FIDELITY PROTOTYPE</div>
+      <div class="left-col-content">
+        I designed additional screens based on the first half of the user flow (homepage to add item to cart) and built the prototype in InVision for usability testing.
+      </div>
+    </div>
+  </div>
+  <div class="right-content-wide" style="padding-top: 0px; padding-bottom: 40px">
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <div class="coral-subtitle">HOMEPAGE WITH DROPDOWN MENU</div>
+      </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">CATEGORY PAGE 1 (BOTTOMS)</div>
+      </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">CATEGORY PAGE 2 (JEANS)</div>
+      </div>
+    </div>
+    <div class="sketches-container" style="padding-bottom: 20px">
+      <div class="content-subsection">
+        <img src="assets/pocket/pocket_prototype_1.png"
+             class="content-image"
+             (click)="openDialog('assets/pocket/pocket_prototype_1.png')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/pocket/pocket_prototype_2.png"
+            class="content-image"
+            (click)="openDialog('assets/pocket/pocket_prototype_2.png')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/pocket/pocket_prototype_3.png"
+             class="content-image"
+             (click)="openDialog('assets/pocket/pocket_prototype_3.png')">
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <div class="coral-subtitle">CATEGORY PAGE 2 (STRAIGHT JEANS)</div>
+      </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">PRODUCT PAGE</div>
+      </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">PRODUCT PAGE: COLOR SELECTED</div>
+      </div>
+    </div>
+    <div class="sketches-container" style="padding-bottom: 20px">
+      <div class="content-subsection">
+        <img src="assets/pocket/pocket_prototype_4.png"
+             class="content-image"
+             (click)="openDialog('assets/pocket/pocket_prototype_4.png')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/pocket/pocket_prototype_5.png"
+            class="content-image"
+            (click)="openDialog('assets/pocket/pocket_prototype_5.png')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/pocket/pocket_prototype_6.png"
+             class="content-image"
+             (click)="openDialog('assets/pocket/pocket_prototype_6.png')">
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <div class="coral-subtitle">PRODUCT PAGE: SIZE SELECTED</div>
+      </div>
+      <div class="content-subsection">
+        <div class="coral-subtitle">PRODUCT PAGE: CART POP-UP</div>
+      </div>
+      <div class="content-subsection"></div>
+    </div>
+    <div class="sketches-container">
+      <div class="content-subsection">
+        <img src="assets/pocket/pocket_prototype_7.png"
+             class="content-image"
+             (click)="openDialog('assets/pocket/pocket_prototype_7.png')">
+      </div>
+      <div class="content-subsection">
+        <img src="assets/pocket/pocket_prototype_8.png"
+            class="content-image"
+            (click)="openDialog('assets/pocket/pocket_prototype_8.png')">
+      </div>
+      <div class="content-subsection"></div>
+    </div>
+  </div>
+</div>
+
+<div class="dark-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Test
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+      <div class="content-subtitle">OBJECTIVES</div>
+      <div class="left-col-content">
+        <ul>
+          <li>Discover unclear or missing elements that prevent users from easily finishing the task.</li>
+          <br>
+          <li>Test how easy the website is for users to navigate.</li>
+        </ul>
+      </div>
+    </div>
+      <div class="content-subtitle">METHOD</div>
+      <div class="left-col-content">
+        Remote tests via Zoom
+      </div>
+  </div>
+  <div class="right-content">
+    <div class="content-section">
+      <div class="content-subtitle">HIGH FIDELITY USABILITY TEST</div>
+        <div>
+          I asked five participants who shopped online for clothes recently to complete the following task:
+        </div>
+        <div class="in-line-quote">
+          Find and purchase a pair of dark high rise straight jeans in a size 27.
+        </div>
+        <div>
+          All participants reported that the task was easy to complete.
+        </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">AFFINITY MAP</div>
+        <div>
+          <p>
+            I noticed an even number of successes and pain points, so there were aspects of the design that worked well for users in addition to areas of improvement.
+          </p>
+          <p>
+            A notable finding was how most users tried to use the sort by filters, but explained to me that they usually don’t use filters when shopping online. They only attempted to do so because of the specific task.
+          </p>
+        </div>
+        <br>
+        <img src="assets/pocket/pocket_affinity_map.png"
+             class="content-image-no-shadow"
+             (click)="openDialog('assets/pocket/pocket_affinity_map.png')">
+    </div>
+  </div>
+</div>
+
+<div class="light-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Improve
+    </div>
+    <hr class="page-break" width="50px" noshade size="2px" align="left">
+    <div class="content-section">
+      <div class="content-subtitle">DESIGN REVISIONS</div>
+      <div class="left-col-content">
+        <div>
+          I made several edits to the website based on user feedback.
+        </div>
+        <br>
+        <button mat-stroked-button class="stroked-button" (click)="goToNewTab('https://michellebaamonde864826.invisionapp.com/public/share/DZ11IRO4UQ')">
+          test final prototype <span class="material-icons font18">arrow_right_alt</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="right-content-wide" style="padding-top: 0px">
+    <div class="sketches-container">
+      <div class="half-page-subsection">
+        <div class="coral-subtitle">CATEGORY PAGE 2 (JEANS) + COLOR FILTER DROPDOWN</div>
+        <div class="content-subtitle-small">PAIN POINT</div>
+        <div>
+          Wanted to use sort by, color, and size filters.
+        </div>
+        <br>
+        <div class="content-subtitle-small">EDIT</div>
+        <div>
+          Added color and size filters.
+        </div>
+      </div>
+      <div class="half-page-subsection">
+        <img src="assets/pocket/pocket_final_1.png"
+             class="content-image"
+             (click)="openDialog('assets/pocket/pocket_final_1.png')">
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="half-page-subsection">
+        <div class="coral-subtitle">CATEGORY PAGE 2 (JEANS) + SIZE FILTER DROPDOWN</div>
+        <div class="content-subtitle-small">PAIN POINT</div>
+        <div>
+          Didn’t notice the left side menu right away.
+        </div>
+        <br>
+        <div class="content-subtitle-small">EDIT</div>
+        <div>
+          Increased font size and weight on category pages to draw more attention to the menu to help guide users.
+        </div>
+      </div>
+      <div class="half-page-subsection">
+        <img src="assets/pocket/pocket_final_2.png"
+             class="content-image"
+             (click)="openDialog('assets/pocket/pocket_final_2.png')">
+      </div>
+    </div>
+    <div class="sketches-container">
+      <div class="half-page-subsection"></div>
+      <div class="half-page-subsection">
+        <img src="assets/pocket/pocket_final_3.png"
+             class="content-image"
+             (click)="openDialog('assets/pocket/pocket_final_3.png')">
+      </div>
+    </div>
+    <div class="sketches-container" style="padding-bottom: 40px">
+      <div class="half-page-subsection">
+        <div class="coral-subtitle">CONFIRMATION</div>
+        <div class="content-subtitle-small">PAIN POINTS</div>
+        <div>
+          <ul>
+            <li style="margin-bottom: 5px">Tried to add item to bag without selecting color and size / tried to click size before color.</li>
+            <li style="margin-bottom: 5px">Didn’t notice dark color label because photo didn’t change.</li>
+          </ul>
+        </div>
+        <br>
+        <div class="content-subtitle-small">PATTERN</div>
+        <div>
+          Scrolled to the bottom of the product page to access detailed product reviews before purchase.
+        </div>
+        <br>
+        <div class="content-subtitle-small">EDITS</div>
+        <div>
+          <ul>
+            <li style="margin-bottom: 5px">Added a hover state to the Add to Bag button on the product page that tells the user to select a size first.</li>
+            <li style="margin-bottom: 5px">Removed “pick a color” prompt. Color will already be selected and labeled to correspond with default photo.</li>
+            <li style="margin-bottom: 5px">Added a scroll trigger that takes users directly to reviews section when they click on the rating or reviews near the top of the page.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="half-page-subsection">
+        <img src="assets/pocket/pocket_final_4.png"
+             class="content-image"
+             (click)="openDialog('assets/pocket/pocket_final_4.png')">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="dark-bg side-paddings column-container">
+  <div class="left-content">
+    <div class="left-col-title">
+      Reflection
+    </div>
+  </div>
+  <div class="right-content">
+    <div class="content-section">
+      <div class="content-subtitle">NEXT STEPS</div>
+        <div>
+          Perform a second round of usability tests with the final prototype and make revisions before handing off designs for implementation.
+        </div>
+    </div>
+    <div class="content-section">
+      <div class="content-subtitle">WHAT I LEARNED</div>
+        <div>
+          <p>
+            This was my first project where I applied the design process. I learned how important research is at the start because it impacts every step. I learned how to support my design decisions with real user insight.
+          </p>
+          <p>
+            To differentiate myself from the numerous e-commerce websites out there, I aimed to uncover distinct shopping behaviors during user interviews and testing to ideate solutions for an enjoyable shopping experience.
+          </p>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="dark-bg side-paddings content-container">
+  <div class="back-to-top" (click)="scrollToTop()">
+    <div style="height: 36px;">
+      <span class="material-icons" style="font-size: 36px;">expand_less</span>
+    </div>
+    back to top
+  </div>
+  <div class="project-nav-container">
+    <div class="project-nav" (click)="goTo('clearsky')">
+      <div class="content-subtitle" style="padding-left: 53px;">
+        PREVIOUS PROJECT
+      </div>
+      <div class="case-title" style="display: flex;">
+        <span class="material-icons" style="font-size: 36px;">chevron_left</span><div>&nbsp; ClearSky Website</div>
+      </div>
+    </div>
+    <div></div>
+  </div>
+</div>

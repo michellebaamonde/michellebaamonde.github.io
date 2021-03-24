@@ -2,6 +2,12 @@
   display: flex;
 }
 
+@media only screen and (max-width: 600px) {
+ :host {
+   flex-basis: 100% !important;
+ }
+}
+
 .case-card-container {
   margin-bottom: 70px;
 }

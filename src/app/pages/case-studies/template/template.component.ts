@@ -14,4 +14,5 @@ export class TemplateComponent {
   //6: add a new dictionary to the ROUTES array, including the path and component attributes
   //7: in home.component.ts, if this case study has a card, make sure the caseUrl attribute in
   //the caseStudies array matches the url you added to the ROUTES array
+  //8: in new case study.component.ts, update component info at the top
 }

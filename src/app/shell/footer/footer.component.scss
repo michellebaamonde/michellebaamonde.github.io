@@ -3,8 +3,52 @@
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
-  font-size: 18px;
-  height: 48px;
+  font-size: 16px;
+  height: 60px;
   vertical-align: middle;
-  line-height: 48px;
+  line-height: 74px;
+}
+
+.social-icon-container {
+  display: flex;
+  justify-content: space-around;
+  min-width: 200px;
+}
+
+.social-icon {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.social-icon:hover {
+  color: #E95E5F;
+}
+
+.credits {
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    font-size: 12px;
+    flex-direction: column;
+    height: 74px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    line-height: normal;
+  }
+
+  .credits {
+    line-height: 18px;
+    text-align: center;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-icon-container {
+    max-width: 25%;
+  }
 }

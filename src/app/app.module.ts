@@ -17,6 +17,8 @@ import { CaseCardComponent } from './pages/home/case-card/case-card.component';
 import { UncoverMoreComponent } from './pages/case-studies/uncover-more/uncover-more.component';
 import { Pup101Component } from './pages/case-studies/pup-101/pup-101.component';
 import { SpotifyComponent } from './pages/case-studies/spotify/spotify.component';
+import { ClearSkyComponent } from './pages/case-studies/clearsky/clearsky.component';
+import { PocketComponent } from './pages/case-studies/pocket/pocket.component';
 import { TemplateComponent } from './pages/case-studies/template/template.component';
 
 import { ParamsService } from './service/params.service';
@@ -31,6 +33,8 @@ import { ParamsService } from './service/params.service';
     UncoverMoreComponent,
     Pup101Component,
     SpotifyComponent,
+    ClearSkyComponent,
+    PocketComponent,
     TemplateComponent
   ],
   imports: [
