@@ -11,7 +11,7 @@ import { ParamsService } from '../../service/params.service';
 export class HeaderComponent {
   currentRoute: string = '';
 
-  headerItems = ['work', 'about', 'resume']
+  headerItems = ['work', 'about']
 
   constructor(
     private router: Router,
@@ -26,14 +26,9 @@ export class HeaderComponent {
   }
 
   goTo(url): void {
-    if(url === 'resume'){
-      window.open('assets/Michelle Baamonde Resume.pdf')
+    if(url === 'work'){
+      this.paramsService.setWork();
     }
-    else {
-      if(url === 'work'){
-        this.paramsService.setWork();
-      }
-      this.router.navigate([url]);
-    }
+    this.router.navigate([url]);
   }
 }
