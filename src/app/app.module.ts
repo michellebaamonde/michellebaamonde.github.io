@@ -14,6 +14,7 @@ import { ImageModalComponent } from './components/image-modal/image-modal.compon
 import { HomeComponent } from './pages/home/home.component';
 import { CaseCardComponent } from './pages/home/case-card/case-card.component';
 
+import { DTDesktopComponent } from './pages/case-studies/dt-desktop/dt-desktop.component';
 import { UncoverMoreComponent } from './pages/case-studies/uncover-more/uncover-more.component';
 import { Pup101Component } from './pages/case-studies/pup-101/pup-101.component';
 import { SpotifyComponent } from './pages/case-studies/spotify/spotify.component';
@@ -30,6 +31,7 @@ import { ParamsService } from './service/params.service';
     FooterComponent,
     HomeComponent,
     CaseCardComponent,
+    DTDesktopComponent,
     UncoverMoreComponent,
     Pup101Component,
     SpotifyComponent,

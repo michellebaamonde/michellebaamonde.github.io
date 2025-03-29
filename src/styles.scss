@@ -7,12 +7,13 @@ html, body { height: 100%; }
 
 body {
   margin: 0;
-  font-family: 'Manrope' !important;
+  font-family: 'Inter' !important;
   font-size: 18px;
+  background-color: #FAFAFA;
 }
 
 a {
-  color: #FAFAFA;
+  color: #1E1E1E;
 }
 
 .pink {
@@ -42,12 +43,12 @@ a {
 }
 
 .dark-bg {
-  background-color: #191F33;
+  background-color: #1E1E1E;
   color: #FAFAFA;
 }
 
 .light-bg {
-  background-color: #E5E5E5;
+  background-color: #FAFAFA;
   color: #272727;
 }
 
@@ -63,7 +64,7 @@ a {
 .mat-raised-button {
   line-height: 50px !important;
   border-radius: 25px !important;
-  font-family: 'Manrope' !important;
+  font-family: 'Inter' !important;
   background-color: #FAFAFA;
 }
 
@@ -82,7 +83,7 @@ a {
   border: 2px solid #E95E5F !important;
   color: #E95E5F;
   font-weight: 700;
-  font-family: 'Manrope';
+  font-family: 'Inter';
   font-size: 16px;
   letter-spacing: 1px;
   height: 50px;
@@ -102,7 +103,7 @@ a {
   border: 2px solid #FAFAFA !important;
   color: #FAFAFA;
   font-weight: 700;
-  font-family: 'Manrope';
+  font-family: 'Inter';
   font-size: 16px;
   letter-spacing: 1px;
   height: 50px;
