@@ -13,11 +13,14 @@ export class AppComponent {
     private router: Router,
     private title: Title,
   ){
-    this.router.events.subscribe((event) => {
-      if(event instanceof NavigationEnd){
-        window.scrollTo(0, 0);
-      }
-    });
-    this.title.setTitle("Michelle Baamonde Portfolio");
+    // this.router.events.subscribe((event) => {
+    //   if(event instanceof NavigationEnd){
+    //     window.scrollTo(0, 0);
+    //   }
+    // });
+    // this.title.setTitle("Michelle Baamonde Portfolio");
+    setTimeout(() => {
+      window.location.href = 'https://michelleparkbaamonde.github.io/';
+    }, 5000)
   }
 }
